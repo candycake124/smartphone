@@ -1,0 +1,367 @@
+<home>
+	<section>
+		<name><![CDATA[block14]]></name>
+		<theme_name><![CDATA[]]></theme_name>
+		<block_cols><![CDATA[12]]></block_cols>
+		<tablet_cols><![CDATA[["12"]]]></tablet_cols>
+		<mobile_cols><![CDATA[["12"]]]></mobile_cols>
+		<block_class><![CDATA[[""]]]></block_class>
+		<class><![CDATA[]]></class>
+		<background><![CDATA[]]></background>
+		<background_image><![CDATA[]]></background_image>
+		<background_repeat><![CDATA[0]]></background_repeat>
+		<background_cover><![CDATA[0]]></background_cover>
+		<parallax><![CDATA[0]]></parallax>
+		<fullwidth><![CDATA[0]]></fullwidth>
+		<padding_top><![CDATA[52]]></padding_top>
+		<padding_bottom><![CDATA[34]]></padding_bottom>
+		<block_position><![CDATA[5]]></block_position>
+	</section>
+	<section>
+		<name><![CDATA[block17]]></name>
+		<theme_name><![CDATA[]]></theme_name>
+		<block_cols><![CDATA[12]]></block_cols>
+		<tablet_cols><![CDATA[]]></tablet_cols>
+		<mobile_cols><![CDATA[]]></mobile_cols>
+		<block_class><![CDATA[]]></block_class>
+		<class><![CDATA[]]></class>
+		<background><![CDATA[]]></background>
+		<background_image><![CDATA[]]></background_image>
+		<background_repeat><![CDATA[]]></background_repeat>
+		<background_cover><![CDATA[]]></background_cover>
+		<parallax><![CDATA[]]></parallax>
+		<fullwidth><![CDATA[]]></fullwidth>
+		<padding_top><![CDATA[]]></padding_top>
+		<padding_bottom><![CDATA[]]></padding_bottom>
+		<block_position><![CDATA[2]]></block_position>
+	</section>
+	<section>
+		<name><![CDATA[block19]]></name>
+		<theme_name><![CDATA[]]></theme_name>
+		<block_cols><![CDATA[12]]></block_cols>
+		<tablet_cols><![CDATA[]]></tablet_cols>
+		<mobile_cols><![CDATA[]]></mobile_cols>
+		<block_class><![CDATA[]]></block_class>
+		<class><![CDATA[]]></class>
+		<background><![CDATA[]]></background>
+		<background_image><![CDATA[]]></background_image>
+		<background_repeat><![CDATA[]]></background_repeat>
+		<background_cover><![CDATA[]]></background_cover>
+		<parallax><![CDATA[]]></parallax>
+		<fullwidth><![CDATA[]]></fullwidth>
+		<padding_top><![CDATA[]]></padding_top>
+		<padding_bottom><![CDATA[]]></padding_bottom>
+		<block_position><![CDATA[4]]></block_position>
+	</section>
+	<section>
+		<name><![CDATA[block27]]></name>
+		<theme_name><![CDATA[]]></theme_name>
+		<block_cols><![CDATA[12]]></block_cols>
+		<tablet_cols><![CDATA[]]></tablet_cols>
+		<mobile_cols><![CDATA[]]></mobile_cols>
+		<block_class><![CDATA[]]></block_class>
+		<class><![CDATA[]]></class>
+		<background><![CDATA[]]></background>
+		<background_image><![CDATA[]]></background_image>
+		<background_repeat><![CDATA[]]></background_repeat>
+		<background_cover><![CDATA[]]></background_cover>
+		<parallax><![CDATA[]]></parallax>
+		<fullwidth><![CDATA[]]></fullwidth>
+		<padding_top><![CDATA[]]></padding_top>
+		<padding_bottom><![CDATA[]]></padding_bottom>
+		<block_position><![CDATA[3]]></block_position>
+	</section>
+	<section>
+		<name><![CDATA[block46]]></name>
+		<theme_name><![CDATA[]]></theme_name>
+		<block_cols><![CDATA[12]]></block_cols>
+		<tablet_cols><![CDATA[["12"]]]></tablet_cols>
+		<mobile_cols><![CDATA[["12"]]]></mobile_cols>
+		<block_class><![CDATA[[""]]]></block_class>
+		<class><![CDATA[]]></class>
+		<background><![CDATA[]]></background>
+		<background_image><![CDATA[]]></background_image>
+		<background_repeat><![CDATA[0]]></background_repeat>
+		<background_cover><![CDATA[0]]></background_cover>
+		<parallax><![CDATA[0]]></parallax>
+		<fullwidth><![CDATA[1]]></fullwidth>
+		<padding_top><![CDATA[]]></padding_top>
+		<padding_bottom><![CDATA[]]></padding_bottom>
+		<block_position><![CDATA[0]]></block_position>
+	</section>
+	<section>
+		<name><![CDATA[block47]]></name>
+		<theme_name><![CDATA[]]></theme_name>
+		<block_cols><![CDATA[12]]></block_cols>
+		<tablet_cols><![CDATA[]]></tablet_cols>
+		<mobile_cols><![CDATA[]]></mobile_cols>
+		<block_class><![CDATA[]]></block_class>
+		<class><![CDATA[]]></class>
+		<background><![CDATA[]]></background>
+		<background_image><![CDATA[]]></background_image>
+		<background_repeat><![CDATA[]]></background_repeat>
+		<background_cover><![CDATA[]]></background_cover>
+		<parallax><![CDATA[]]></parallax>
+		<fullwidth><![CDATA[]]></fullwidth>
+		<padding_top><![CDATA[]]></padding_top>
+		<padding_bottom><![CDATA[]]></padding_bottom>
+		<block_position><![CDATA[1]]></block_position>
+	</section>
+	<section>
+		<name><![CDATA[block50]]></name>
+		<theme_name><![CDATA[]]></theme_name>
+		<block_cols><![CDATA[12]]></block_cols>
+		<tablet_cols><![CDATA[["12"]]]></tablet_cols>
+		<mobile_cols><![CDATA[["12"]]]></mobile_cols>
+		<block_class><![CDATA[[""]]]></block_class>
+		<class><![CDATA[medical-instagram]]></class>
+		<background><![CDATA[]]></background>
+		<background_image><![CDATA[]]></background_image>
+		<background_repeat><![CDATA[0]]></background_repeat>
+		<background_cover><![CDATA[0]]></background_cover>
+		<parallax><![CDATA[0]]></parallax>
+		<fullwidth><![CDATA[1]]></fullwidth>
+		<padding_top><![CDATA[]]></padding_top>
+		<padding_bottom><![CDATA[]]></padding_bottom>
+		<block_position><![CDATA[6]]></block_position>
+	</section>
+	<block>
+		<block_name><![CDATA[block14-0]]></block_name>
+		<type><![CDATA[latest_posts]]></type>
+		<position><![CDATA[1]]></position>
+		<setting><![CDATA[{"title":"LATEST FROM BLOG","additional_content":"The freshest and most exciting news","animation":"","animation_delay":"","post_category":["1"],"number_of_posts":"3","items":"3","template":"default.phtml","show_thumbnail":"1","show_short_content":"1","limit_characters_short_content":"120","view_as":"1","number_row":"1","text_colour":"","link_colour":"","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","autoplay":0,"stop_auto":0,"navigation":0,"pagination":0}]]></setting>
+		<col><![CDATA[12]]></col>
+		<class><![CDATA[medical-blog]]></class>
+		<block_content><![CDATA[{{widget type="MGS\Blog\Block\Widget\Latest" mgs_panel_title="LATEST FROM BLOG" post_category="1" number_of_posts="3" items="3" show_thumbnail="1" mgs_panel_note="The freshest and most exciting news" template="widget/default.phtml" show_short_content="1" limit_characters_short_content="120" view_as="owl_carousel" autoplay="0" stop_auto="0" navigation="0" pagination="0" number_row="1"}}]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block17-0]]></block_name>
+		<type><![CDATA[new_products]]></type>
+		<position><![CDATA[1]]></position>
+		<setting><![CDATA[{"title":"NEW ARRIVALS","additional_content":"Pellentesque posuere orci lobortis scelerisque blandit.","animation":"","animation_delay":"","limit":"4","perrow":"4","numbercol":"1","percol":"","template":"grid.phtml","ratio":"1","number_row":"1","category_id":["4"],"text_colour":"","link_colour":"","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","use_slider":0,"autoplay":0,"stop_auto":0,"navigation":0,"pagination":0,"use_tabs":0,"loadmore":0}]]></setting>
+		<col><![CDATA[12]]></col>
+		<class><![CDATA[medical-new-arrival]]></class>
+		<block_content><![CDATA[{{block class="MGS\Mpanel\Block\Products\NewProducts" mgs_panel_title="NEW ARRIVALS" mgs_panel_note="Pellentesque posuere orci lobortis scelerisque blandit." limit="4" ratio="1" category_ids="4" use_slider="0" loadmore="0" template="products/new/grid.phtml" perrow="4"}}]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block19-0]]></block_name>
+		<type><![CDATA[attribute_products]]></type>
+		<position><![CDATA[1]]></position>
+		<setting><![CDATA[{"title":"FEARTURE PRODUCT","additional_content":"Pellentesque posuere orci lobortis scelerisque blandit.","animation":"","animation_delay":"","attribute":"fearture_product","limit":"8","perrow":"4","numbercol":"1","percol":"","template":"grid.phtml","ratio":"1","number_row":"1","category_id":["5"],"text_colour":"","link_colour":"","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","use_slider":0,"autoplay":0,"stop_auto":0,"navigation":0,"pagination":0,"use_tabs":0,"loadmore":0}]]></setting>
+		<col><![CDATA[12]]></col>
+		<class><![CDATA[medical-new-arrival]]></class>
+		<block_content><![CDATA[{{block class="MGS\Mpanel\Block\Products\Attributes" mgs_panel_title="FEARTURE PRODUCT" mgs_panel_note="Pellentesque posuere orci lobortis scelerisque blandit." limit="8" ratio="1" category_ids="5" attribute="fearture_product" use_slider="0" loadmore="0" template="products/attribute/grid.phtml" perrow="4"}}]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block27-0]]></block_name>
+		<type><![CDATA[promo_banner]]></type>
+		<position><![CDATA[2]]></position>
+		<setting><![CDATA[{"animation":"","animation_delay":"","text_colour":"","link_colour":"","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","banner_id":"medical_banner"}]]></setting>
+		<col><![CDATA[12]]></col>
+		<class><![CDATA[mgs-medical-banner]]></class>
+		<block_content><![CDATA[{{widget type="MGS\Promobanners\Block\Widget\Banner" banner_id="medical_banner" template="banner.phtml"}}]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block46-0]]></block_name>
+		<type><![CDATA[owl_banner]]></type>
+		<position><![CDATA[1]]></position>
+		<setting><![CDATA[{"block_link":"","animation":"","animation_delay":"","removeimg":["","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""],"html_slider":"<div data-text-position=\"middle_left\" data-text-animate=\"\" class=\"item \"><a class=\"item-image\" href=\"\" style=\"background-image:url(http:\/\/localhost\/claue2\/pub\/media\/wysiwyg\/slider\/BG_1.png)\"><img class=\"img-responsive\" src=\"http:\/\/localhost\/claue2\/pub\/media\/wysiwyg\/slider\/BG_1.png\" alt=\"\"><\/a><div class=\"container slide-text middle_left\"><div class=\"inner-text\"><div class=\"medical-owl\">\r\n<div class=\"medical-left-content\">\r\n<h2>Helping you<br>Happy one<\/h2>\r\n<p>Save up to 10% on Lusion brand purchases. \r\nFree delivery and easy payment.<\/p>\r\n<a href=\"#\" class=\"btn btn-default\">Discover now<\/a>\r\n<\/div>\r\n\r\n<div class=\"medical-right-content\">\r\n<div class=\"medical-right-content-btn medical-btn1\">\r\n<img src=\"http:\/\/localhost\/claue2\/pub\/media\/wysiwyg\/slider\/Vector1.png\">\r\n<a href=\"\">Medical mark<\/a>\r\n<\/div>\r\n<div class=\"medical-right-content-btn medical-btn2\">\r\n<img class=\"icon-human\" src=\"http:\/\/localhost\/claue2\/pub\/media\/wysiwyg\/slider\/Vector2.png\">\r\n<a href=\"\">protective clothing<\/a>\r\n<\/div>\r\n<div class=\"medical-right-content-btn medical-btn3\">\r\n<img class=\"icon-hand\" src=\"http:\/\/localhost\/claue2\/pub\/media\/wysiwyg\/slider\/Vector3.png\">\r\n<a href=\"\">Protective gloves<\/a>\r\n<\/div>\r\n<img src=\"http:\/\/localhost\/claue2\/pub\/media\/wysiwyg\/slider\/placeit-serious-doctor-E6V49LL_1_1x.png\">\r\n<\/div>\r\n<\/div><\/div><\/div><\/div><div data-text-position=\"middle_left\" data-text-animate=\"\" class=\"item \"><a class=\"item-image\" href=\"\" style=\"background-image:url(http:\/\/localhost\/claue2\/pub\/media\/wysiwyg\/slider\/BG.png)\"><img class=\"img-responsive\" src=\"http:\/\/localhost\/claue2\/pub\/media\/wysiwyg\/slider\/BG.png\" alt=\"\"><\/a><div class=\"container slide-text middle_left\"><div class=\"inner-text\"><div class=\"medical-owl medical-slide2\">\r\n<div class=\"medical-left-content\">\r\n<h2>Helping you<br>Happy one<\/h2>\r\n<p>Save up to 10% on Lusion brand purchases. \r\nFree delivery and easy payment.<\/p>\r\n<a href=\"#\" class=\"btn btn-default\">Discover now<\/a>\r\n<\/div>\r\n\r\n<div class=\"medical-right-content\">\r\n<div class=\"medical-right-content-btn medical-btn1\">\r\n<img class=\"icon-hand\" src=\"http:\/\/localhost\/claue2\/pub\/media\/wysiwyg\/slider\/Vector3.png\">\r\n<a href=\"\">Protective gloves<\/a>\r\n<\/div>\r\n<div class=\"medical-right-content-btn medical-btn2\">\r\n<img class=\"medical-icon\" src=\"http:\/\/localhost\/claue2\/pub\/media\/wysiwyg\/slider\/Vector4.png\">\r\n<a href=\"\">stethoscope<\/a>\r\n<\/div>\r\n<div class=\"medical-right-content-btn medical-btn3\">\r\n<img src=\"http:\/\/localhost\/claue2\/pub\/media\/wysiwyg\/slider\/Vector1.png\">\r\n<a href=\"\">Medical mark<\/a>\r\n<\/div>\r\n<img src=\"http:\/\/localhost\/claue2\/pub\/media\/wysiwyg\/slider\/doctor-9MVKGWZ_1_1x.png\">\r\n<\/div>\r\n<\/div><\/div><\/div><\/div><div data-text-position=\"middle_left\" data-text-animate=\"\" class=\"item \"><a class=\"item-image\" href=\"\" style=\"background-image:url(http:\/\/localhost\/claue2\/pub\/media\/wysiwyg\/slider\/BG.png)\"><img class=\"img-responsive\" src=\"http:\/\/localhost\/claue2\/pub\/media\/wysiwyg\/slider\/BG.png\" alt=\"\"><\/a><div class=\"container slide-text middle_left\"><div class=\"inner-text\"><div class=\"medical-owl medical-slide3\">\r\n<div class=\"medical-left-content\">\r\n<h2>Helping you<br>Happy one<\/h2>\r\n<p>Save up to 10% on Lusion brand purchases. \r\nFree delivery and easy payment.<\/p>\r\n<a href=\"#\" class=\"btn btn-default\">Discover now<\/a>\r\n<\/div>\r\n<div class=\"medical-right-content\">\r\n<div class=\"medical-right-content-btn medical-btn1\">\r\n<img src=\"http:\/\/localhost\/claue2\/pub\/media\/wysiwyg\/slider\/Vector1.png\">\r\n<a href=\"\">Medical mark<\/a>\r\n<\/div>\r\n<div class=\"medical-right-content-btn medical-btn2\">\r\n<img class=\"icon-hand\" src=\"http:\/\/localhost\/claue2\/pub\/media\/wysiwyg\/slider\/Vector3.png\">\r\n<a href=\"\">Protective gloves<\/a>\r\n<\/div>\r\n<div class=\"medical-right-content-btn medical-btn3\">\r\n<img class=\"medical-icon\" src=\"http:\/\/localhost\/claue2\/pub\/media\/wysiwyg\/slider\/Vector4.png\">\r\n<a href=\"\">stethoscope<\/a>\r\n<\/div>\r\n<img src=\"http:\/\/localhost\/claue2\/pub\/media\/wysiwyg\/slider\/doctor-9MVKGWZ_1_1x_1_.png\">\r\n<\/div>\r\n<\/div><\/div><\/div><\/div>","offset":"","effect":"1","speed":"","pagination":"1","navtemple":"1","fullscreen":0,"autoplay":0,"stop_auto":0,"navigation":0,"loop":0,"fullheight":0}]]></setting>
+		<col><![CDATA[12]]></col>
+		<class><![CDATA[mgs-medical-owl]]></class>
+		<block_content><![CDATA[{{block class="MGS\Mpanel\Block\Widget\OwlCarousel" fullscreen="0" autoplay="0" stop_auto="0" navigation="0" offset="" fullheight="0" pagination="1" loop="0" speed="" html_slider="&lt;div data-text-position=&quot;middle_left&quot; data-text-animate=&quot;&quot; class=&quot;item &quot;&gt;&lt;a class=&quot;item-image&quot; href=&quot;&quot; style=&quot;background-image:url(http://localhost/claue2/pub/media/wysiwyg/slider/BG_1.png)&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://localhost/claue2/pub/media/wysiwyg/slider/BG_1.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;div class=&quot;container slide-text middle_left&quot;&gt;&lt;div class=&quot;inner-text&quot;&gt;&lt;div class=&quot;medical-owl&quot;&gt;
+&lt;div class=&quot;medical-left-content&quot;&gt;
+&lt;h2&gt;Helping you&lt;br&gt;Happy one&lt;/h2&gt;
+&lt;p&gt;Save up to 10% on Lusion brand purchases. 
+Free delivery and easy payment.&lt;/p&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-default&quot;&gt;Discover now&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;medical-right-content&quot;&gt;
+&lt;div class=&quot;medical-right-content-btn medical-btn1&quot;&gt;
+&lt;img src=&quot;http://localhost/claue2/pub/media/wysiwyg/slider/Vector1.png&quot;&gt;
+&lt;a href=&quot;&quot;&gt;Medical mark&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;medical-right-content-btn medical-btn2&quot;&gt;
+&lt;img class=&quot;icon-human&quot; src=&quot;http://localhost/claue2/pub/media/wysiwyg/slider/Vector2.png&quot;&gt;
+&lt;a href=&quot;&quot;&gt;protective clothing&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;medical-right-content-btn medical-btn3&quot;&gt;
+&lt;img class=&quot;icon-hand&quot; src=&quot;http://localhost/claue2/pub/media/wysiwyg/slider/Vector3.png&quot;&gt;
+&lt;a href=&quot;&quot;&gt;Protective gloves&lt;/a&gt;
+&lt;/div&gt;
+&lt;img src=&quot;http://localhost/claue2/pub/media/wysiwyg/slider/placeit-serious-doctor-E6V49LL_1_1x.png&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div data-text-position=&quot;middle_left&quot; data-text-animate=&quot;&quot; class=&quot;item &quot;&gt;&lt;a class=&quot;item-image&quot; href=&quot;&quot; style=&quot;background-image:url(http://localhost/claue2/pub/media/wysiwyg/slider/BG.png)&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://localhost/claue2/pub/media/wysiwyg/slider/BG.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;div class=&quot;container slide-text middle_left&quot;&gt;&lt;div class=&quot;inner-text&quot;&gt;&lt;div class=&quot;medical-owl medical-slide2&quot;&gt;
+&lt;div class=&quot;medical-left-content&quot;&gt;
+&lt;h2&gt;Helping you&lt;br&gt;Happy one&lt;/h2&gt;
+&lt;p&gt;Save up to 10% on Lusion brand purchases. 
+Free delivery and easy payment.&lt;/p&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-default&quot;&gt;Discover now&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;medical-right-content&quot;&gt;
+&lt;div class=&quot;medical-right-content-btn medical-btn1&quot;&gt;
+&lt;img class=&quot;icon-hand&quot; src=&quot;http://localhost/claue2/pub/media/wysiwyg/slider/Vector3.png&quot;&gt;
+&lt;a href=&quot;&quot;&gt;Protective gloves&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;medical-right-content-btn medical-btn2&quot;&gt;
+&lt;img class=&quot;medical-icon&quot; src=&quot;http://localhost/claue2/pub/media/wysiwyg/slider/Vector4.png&quot;&gt;
+&lt;a href=&quot;&quot;&gt;stethoscope&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;medical-right-content-btn medical-btn3&quot;&gt;
+&lt;img src=&quot;http://localhost/claue2/pub/media/wysiwyg/slider/Vector1.png&quot;&gt;
+&lt;a href=&quot;&quot;&gt;Medical mark&lt;/a&gt;
+&lt;/div&gt;
+&lt;img src=&quot;http://localhost/claue2/pub/media/wysiwyg/slider/doctor-9MVKGWZ_1_1x.png&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div data-text-position=&quot;middle_left&quot; data-text-animate=&quot;&quot; class=&quot;item &quot;&gt;&lt;a class=&quot;item-image&quot; href=&quot;&quot; style=&quot;background-image:url(http://localhost/claue2/pub/media/wysiwyg/slider/BG.png)&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://localhost/claue2/pub/media/wysiwyg/slider/BG.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;div class=&quot;container slide-text middle_left&quot;&gt;&lt;div class=&quot;inner-text&quot;&gt;&lt;div class=&quot;medical-owl medical-slide3&quot;&gt;
+&lt;div class=&quot;medical-left-content&quot;&gt;
+&lt;h2&gt;Helping you&lt;br&gt;Happy one&lt;/h2&gt;
+&lt;p&gt;Save up to 10% on Lusion brand purchases. 
+Free delivery and easy payment.&lt;/p&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-default&quot;&gt;Discover now&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;medical-right-content&quot;&gt;
+&lt;div class=&quot;medical-right-content-btn medical-btn1&quot;&gt;
+&lt;img src=&quot;http://localhost/claue2/pub/media/wysiwyg/slider/Vector1.png&quot;&gt;
+&lt;a href=&quot;&quot;&gt;Medical mark&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;medical-right-content-btn medical-btn2&quot;&gt;
+&lt;img class=&quot;icon-hand&quot; src=&quot;http://localhost/claue2/pub/media/wysiwyg/slider/Vector3.png&quot;&gt;
+&lt;a href=&quot;&quot;&gt;Protective gloves&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;medical-right-content-btn medical-btn3&quot;&gt;
+&lt;img class=&quot;medical-icon&quot; src=&quot;http://localhost/claue2/pub/media/wysiwyg/slider/Vector4.png&quot;&gt;
+&lt;a href=&quot;&quot;&gt;stethoscope&lt;/a&gt;
+&lt;/div&gt;
+&lt;img src=&quot;http://localhost/claue2/pub/media/wysiwyg/slider/doctor-9MVKGWZ_1_1x_1_.png&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" navtemple="1" effect="1" template="widget/owl_slider.phtml"}}]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block47-0]]></block_name>
+		<type><![CDATA[deals]]></type>
+		<position><![CDATA[1]]></position>
+		<setting><![CDATA[{"title":"","additional_content":"","animation":"","animation_delay":"","limit":"1","perrow":"1","deals_template":"2","deals_product_id":"2","template":"grid.phtml","ratio":"1","number_row":"1","category_id":["3"],"text_colour":"","link_colour":"","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","use_slider":0,"autoplay":0,"stop_auto":0,"navigation":0,"pagination":0,"use_tabs":0,"loadmore":0}]]></setting>
+		<col><![CDATA[12]]></col>
+		<class><![CDATA[single-deal-product]]></class>
+		<block_content><![CDATA[{{block class="MGS\Mpanel\Block\Products\Deals" mgs_panel_title="" mgs_panel_note="" limit="1" perrow="1" deals_product_id="2" ratio="1" category_ids="3" use_slider="0" loadmore="0" deals_template="2" template="products/deals/template-for-single-deal-product.phtml"}}]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block50-0]]></block_name>
+		<type><![CDATA[snapppt]]></type>
+		<position><![CDATA[1]]></position>
+		<setting><![CDATA[{"title":"@ FOLLOW US ON INSTAGRAM","additional_content":"","animation":"","animation_delay":""}]]></setting>
+		<col><![CDATA[12]]></col>
+		<class><![CDATA[col-xs-12]]></class>
+		<block_content><![CDATA[{{block class="MGS\Social\Block\Panel\Widget" mgs_panel_title="@ FOLLOW US ON INSTAGRAM" mgs_panel_note="" template="widget/snapppt_shop.phtml"}}]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block50-0]]></block_name>
+		<type><![CDATA[static]]></type>
+		<position><![CDATA[0]]></position>
+		<setting><![CDATA[{"animation":"","animation_delay":""}]]></setting>
+		<col><![CDATA[12]]></col>
+		<class><![CDATA[medical-instagrm-text]]></class>
+		<block_content><![CDATA[<div class="content-heading">
+<h3 class="title">@ FOLLOW US ON INSTAGRAM</h3>
+</div>]]></block_content>
+	</block>
+	<promo_banner>
+		<item>
+			<title><![CDATA[Medical Banner]]></title>
+			<filename><![CDATA[/g/r/group_15.png]]></filename>
+			<url><![CDATA[#]]></url>
+			<button><![CDATA[Buy now]]></button>
+			<text_align><![CDATA[middle-left]]></text_align>
+			<content><![CDATA[<div class="medical-banner">
+<div class="medical-banner-title">
+<p>15% Off on</p>
+<p>Hand Sanitizers</p>
+</div>
+<p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum.</p>
+</div>]]></content>
+			<effect><![CDATA[]]></effect>
+			<custom_class><![CDATA[mgs-medical-banner]]></custom_class>
+			<status><![CDATA[1]]></status>
+			<identifier><![CDATA[medical_banner]]></identifier>
+			<alt><![CDATA[]]></alt>
+		</item>
+	</promo_banner>
+	<theme_setting>
+		<custom_style>
+			<style>.header3 .top-header-content{
+display:none;
+}
+
+.cms-index-index header.header.header3:not(.active-sticky) {
+    background: transparent;
+    padding: 23px;
+    border-bottom: none;
+}
+
+.cms-index-index div#placeholder-header {
+    height: 0 !important;
+}
+
+.header .table-icon-menu > div {
+    padding: 22px 25px 16px 0;
+}
+.minicart-wrapper .action.showcart > .counter.qty {
+    top: 26%;
+    min-width: 18px;
+    height: 19px;
+}
+
+.header:not(.header6):not(.header7) .navigation .nav-main-menu {
+    margin-left: 0;
+    margin-top: 4px;
+}
+
+.header:not(.header6):not(.header7) .navigation .nav-main-menu li:nth-child(1) a {
+    padding-left: 0;
+}
+
+.header .nav.nav-main-menu > li > a {
+    padding: 19px 15px;
+}
+
+.content-heading h3.title {
+    color: #243D64;
+}
+.content-heading h3.title:before, .content-heading h3.title:after {
+    background: #243D64;
+}
+
+body.cms-index-index footer.footer {
+    margin-top: -45px !important;
+}</style>
+		</custom_style>
+	</theme_setting>
+	<color_setting>
+		<general>
+			<theme_color>#243d64</theme_color>
+		</general>
+		<main>
+			<button_background>#21c7eb</button_background>
+			<button_background_hover>#ffffff</button_background_hover>
+			<button_border>#21c7eb</button_border>
+			<button_border_hover>#ffffff</button_border_hover>
+			<button_text>#ffffff</button_text>
+			<button_text_hover>#333333</button_text_hover>
+			<link_color>#243D64</link_color>
+			<main_custom>1</main_custom>
+			<price_color>#616979</price_color>
+			<price_old_color>#243D64</price_old_color>
+			<price_special_color>#616979</price_special_color>
+			<primary_button_background>#21c7eb</primary_button_background>
+			<primary_button_background_hover>#ffffff</primary_button_background_hover>
+			<primary_button_border>#21c7eb</primary_button_border>
+			<primary_button_border_hover>#ffffff</primary_button_border_hover>
+			<primary_button_text>#ffffff</primary_button_text>
+			<primary_button_text_hover>#333333</primary_button_text_hover>
+			<text_color>#616979</text_color>
+		</main>
+	</color_setting>
+
+</home>

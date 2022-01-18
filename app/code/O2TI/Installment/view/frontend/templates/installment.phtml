@@ -1,0 +1,10 @@
+<script>
+    window.installmentProviders = {
+		"current_currency": "<?=  /* @escapeNotVerified */  $block->getFormartCurrentCurrency()?>",
+		"current_currency_symbol": "<?=  /* @escapeNotVerified */  $block->getFormartCurrentCurrencySymbol() ?>",
+		"interest": <?= /* @escapeNotVerified */  json_encode($block->getInfoInterest()) ?>,
+		"type_interest": "<?= /* @escapeNotVerified */  $block->getTypeInterest() ?>",
+		"limite_by_price": <?= /* @escapeNotVerified */  $block->getLimitByPlotPrice() ?>,
+		"limite_by_installment": <?= /* @escapeNotVerified */  $block->getLimitByPortionNumber() ?>
+    };
+</script>

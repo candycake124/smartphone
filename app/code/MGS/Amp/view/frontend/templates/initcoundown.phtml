@@ -1,0 +1,18 @@
+<amp-date-countdown timeleft-ms="1" layout="responsive" height="0" width="0">
+    <template type="amp-mustache">
+        <div class="deal-timer">
+            <div id="deal-timer" class="countdown">
+                <span class="days">{{d}}</span>
+                <span class="hours">{{h}}</span>
+                <span class="mins">{{m}}</span>
+                <span class="secs">{{s}}</span>
+            </div>
+            <div class="time-note">
+                <span class="days"><?php echo __('days') ?></span>
+                <span class="hours"><?php echo __('hrs') ?></span>
+                <span class="mins"><?php echo __('mins') ?></span>
+                <span class='secs'><?php echo __('secs') ?></span>
+            </div>
+        </div>
+    </template>
+</amp-date-countdown>

@@ -1,0 +1,797 @@
+<home>
+	<section>
+		<name><![CDATA[block18]]></name>
+		<theme_name><![CDATA[]]></theme_name>
+		<block_cols><![CDATA[12]]></block_cols>
+		<tablet_cols><![CDATA[["12"]]]></tablet_cols>
+		<mobile_cols><![CDATA[["12"]]]></mobile_cols>
+		<block_class><![CDATA[[""]]]></block_class>
+		<class><![CDATA[]]></class>
+		<background><![CDATA[]]></background>
+		<background_image><![CDATA[]]></background_image>
+		<background_repeat><![CDATA[0]]></background_repeat>
+		<background_cover><![CDATA[0]]></background_cover>
+		<parallax><![CDATA[0]]></parallax>
+		<fullwidth><![CDATA[1]]></fullwidth>
+		<padding_top><![CDATA[]]></padding_top>
+		<padding_bottom><![CDATA[]]></padding_bottom>
+		<block_position><![CDATA[1]]></block_position>
+	</section>
+	<section>
+		<name><![CDATA[block20]]></name>
+		<theme_name><![CDATA[]]></theme_name>
+		<block_cols><![CDATA[12]]></block_cols>
+		<tablet_cols><![CDATA[["12"]]]></tablet_cols>
+		<mobile_cols><![CDATA[["12"]]]></mobile_cols>
+		<block_class><![CDATA[[""]]]></block_class>
+		<class><![CDATA[]]></class>
+		<background><![CDATA[]]></background>
+		<background_image><![CDATA[]]></background_image>
+		<background_repeat><![CDATA[0]]></background_repeat>
+		<background_cover><![CDATA[0]]></background_cover>
+		<parallax><![CDATA[0]]></parallax>
+		<fullwidth><![CDATA[0]]></fullwidth>
+		<padding_top><![CDATA[30]]></padding_top>
+		<padding_bottom><![CDATA[7]]></padding_bottom>
+		<block_position><![CDATA[2]]></block_position>
+	</section>
+	<section>
+		<name><![CDATA[block21]]></name>
+		<theme_name><![CDATA[]]></theme_name>
+		<block_cols><![CDATA[12]]></block_cols>
+		<tablet_cols><![CDATA[["12"]]]></tablet_cols>
+		<mobile_cols><![CDATA[["12"]]]></mobile_cols>
+		<block_class><![CDATA[[""]]]></block_class>
+		<class><![CDATA[]]></class>
+		<background><![CDATA[]]></background>
+		<background_image><![CDATA[]]></background_image>
+		<background_repeat><![CDATA[0]]></background_repeat>
+		<background_cover><![CDATA[0]]></background_cover>
+		<parallax><![CDATA[0]]></parallax>
+		<fullwidth><![CDATA[0]]></fullwidth>
+		<padding_top><![CDATA[20]]></padding_top>
+		<padding_bottom><![CDATA[20]]></padding_bottom>
+		<block_position><![CDATA[3]]></block_position>
+	</section>
+	<section>
+		<name><![CDATA[block22]]></name>
+		<theme_name><![CDATA[]]></theme_name>
+		<block_cols><![CDATA[12]]></block_cols>
+		<tablet_cols><![CDATA[["12"]]]></tablet_cols>
+		<mobile_cols><![CDATA[["12"]]]></mobile_cols>
+		<block_class><![CDATA[[""]]]></block_class>
+		<class><![CDATA[]]></class>
+		<background><![CDATA[]]></background>
+		<background_image><![CDATA[]]></background_image>
+		<background_repeat><![CDATA[0]]></background_repeat>
+		<background_cover><![CDATA[0]]></background_cover>
+		<parallax><![CDATA[0]]></parallax>
+		<fullwidth><![CDATA[0]]></fullwidth>
+		<padding_top><![CDATA[]]></padding_top>
+		<padding_bottom><![CDATA[20]]></padding_bottom>
+		<block_position><![CDATA[4]]></block_position>
+	</section>
+	<section>
+		<name><![CDATA[block23]]></name>
+		<theme_name><![CDATA[]]></theme_name>
+		<block_cols><![CDATA[12]]></block_cols>
+		<tablet_cols><![CDATA[["12"]]]></tablet_cols>
+		<mobile_cols><![CDATA[["12"]]]></mobile_cols>
+		<block_class><![CDATA[[""]]]></block_class>
+		<class><![CDATA[category-product-list]]></class>
+		<background><![CDATA[]]></background>
+		<background_image><![CDATA[]]></background_image>
+		<background_repeat><![CDATA[0]]></background_repeat>
+		<background_cover><![CDATA[0]]></background_cover>
+		<parallax><![CDATA[0]]></parallax>
+		<fullwidth><![CDATA[0]]></fullwidth>
+		<padding_top><![CDATA[10]]></padding_top>
+		<padding_bottom><![CDATA[10]]></padding_bottom>
+		<block_position><![CDATA[5]]></block_position>
+	</section>
+	<section>
+		<name><![CDATA[block24]]></name>
+		<theme_name><![CDATA[]]></theme_name>
+		<block_cols><![CDATA[12]]></block_cols>
+		<tablet_cols><![CDATA[["12"]]]></tablet_cols>
+		<mobile_cols><![CDATA[["12"]]]></mobile_cols>
+		<block_class><![CDATA[[""]]]></block_class>
+		<class><![CDATA[]]></class>
+		<background><![CDATA[]]></background>
+		<background_image><![CDATA[]]></background_image>
+		<background_repeat><![CDATA[0]]></background_repeat>
+		<background_cover><![CDATA[0]]></background_cover>
+		<parallax><![CDATA[0]]></parallax>
+		<fullwidth><![CDATA[0]]></fullwidth>
+		<padding_top><![CDATA[50]]></padding_top>
+		<padding_bottom><![CDATA[10]]></padding_bottom>
+		<block_position><![CDATA[6]]></block_position>
+	</section>
+	<section>
+		<name><![CDATA[block25]]></name>
+		<theme_name><![CDATA[]]></theme_name>
+		<block_cols><![CDATA[12]]></block_cols>
+		<tablet_cols><![CDATA[["12"]]]></tablet_cols>
+		<mobile_cols><![CDATA[["12"]]]></mobile_cols>
+		<block_class><![CDATA[[""]]]></block_class>
+		<class><![CDATA[category-product-list]]></class>
+		<background><![CDATA[]]></background>
+		<background_image><![CDATA[]]></background_image>
+		<background_repeat><![CDATA[0]]></background_repeat>
+		<background_cover><![CDATA[0]]></background_cover>
+		<parallax><![CDATA[0]]></parallax>
+		<fullwidth><![CDATA[0]]></fullwidth>
+		<padding_top><![CDATA[30]]></padding_top>
+		<padding_bottom><![CDATA[30]]></padding_bottom>
+		<block_position><![CDATA[7]]></block_position>
+	</section>
+	<section>
+		<name><![CDATA[block26]]></name>
+		<theme_name><![CDATA[]]></theme_name>
+		<block_cols><![CDATA[12]]></block_cols>
+		<tablet_cols><![CDATA[["12"]]]></tablet_cols>
+		<mobile_cols><![CDATA[["12"]]]></mobile_cols>
+		<block_class><![CDATA[[""]]]></block_class>
+		<class><![CDATA[]]></class>
+		<background><![CDATA[]]></background>
+		<background_image><![CDATA[]]></background_image>
+		<background_repeat><![CDATA[0]]></background_repeat>
+		<background_cover><![CDATA[0]]></background_cover>
+		<parallax><![CDATA[0]]></parallax>
+		<fullwidth><![CDATA[0]]></fullwidth>
+		<padding_top><![CDATA[30]]></padding_top>
+		<padding_bottom><![CDATA[30]]></padding_bottom>
+		<block_position><![CDATA[8]]></block_position>
+	</section>
+	<section>
+		<name><![CDATA[block28]]></name>
+		<theme_name><![CDATA[]]></theme_name>
+		<block_cols><![CDATA[3,3,3,3]]></block_cols>
+		<tablet_cols><![CDATA[["12","12","12","12"]]]></tablet_cols>
+		<mobile_cols><![CDATA[["12","12","12","12"]]]></mobile_cols>
+		<block_class><![CDATA[["margin-bottom30","margin-bottom30","margin-bottom30","margin-bottom30"]]]></block_class>
+		<class><![CDATA[home-garden]]></class>
+		<background><![CDATA[#76a72f]]></background>
+		<background_image><![CDATA[]]></background_image>
+		<background_repeat><![CDATA[0]]></background_repeat>
+		<background_cover><![CDATA[0]]></background_cover>
+		<parallax><![CDATA[0]]></parallax>
+		<fullwidth><![CDATA[0]]></fullwidth>
+		<padding_top><![CDATA[45]]></padding_top>
+		<padding_bottom><![CDATA[2]]></padding_bottom>
+		<block_position><![CDATA[10]]></block_position>
+	</section>
+	<block>
+		<block_name><![CDATA[block20-0]]></block_name>
+		<type><![CDATA[promo_banner]]></type>
+		<position><![CDATA[1]]></position>
+		<setting><![CDATA[{"animation":"","animation_delay":"","text_colour":"","link_colour":"","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","banner_id":"banner_1_left"}]]></setting>
+		<col><![CDATA[6]]></col>
+		<class><![CDATA[margin-bottom30 button-link organic-banner]]></class>
+		<block_content><![CDATA[{{widget type="MGS\Promobanners\Block\Widget\Banner" banner_id="banner_1_left" template="banner.phtml"}}]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block20-0]]></block_name>
+		<type><![CDATA[promo_banner]]></type>
+		<position><![CDATA[2]]></position>
+		<setting><![CDATA[{"animation":"","animation_delay":"50","text_colour":"","link_colour":"","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","banner_id":"banner_1_right"}]]></setting>
+		<col><![CDATA[6]]></col>
+		<class><![CDATA[margin-bottom30 button-link organic-banner]]></class>
+		<block_content><![CDATA[{{widget type="MGS\Promobanners\Block\Widget\Banner" banner_id="banner_1_right" template="banner.phtml"}}]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block21-0]]></block_name>
+		<type><![CDATA[tabs]]></type>
+		<position><![CDATA[1]]></position>
+		<setting><![CDATA[{"title":"Today\u2019s Best Deal","additional_content":"","animation":"","animation_delay":"50","tabs":{"4467":{"value":"featured","label":"Featured","position":"0"},"5851":{"value":"best_seller","label":"Best seller","position":"1"},"1649":{"value":"special","label":"Special","position":"2"},"4809":{"value":"lastest","label":"Lastest","position":"3"}},"tab_template":"1","limit":"8","perrow":"5","ratio":"1","use_slider":"1","number_row":"1","stop_auto":"1","navigation":"1","category_id":["67"],"text_colour":"","link_colour":"","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","autoplay":0,"pagination":0,"use_tabs":0,"loadmore":0}]]></setting>
+		<col><![CDATA[12]]></col>
+		<class><![CDATA[]]></class>
+		<block_content><![CDATA[{{block class="MGS\Mpanel\Block\Products\Tabs" mgs_panel_title="Today’s Best Deal" mgs_panel_note="" limit="8" perrow="5" category_ids="67" use_slider="1" loadmore="0" ratio="1" tabs="featured,best_seller,special,lastest" template="products/tabs/grid.phtml" tab_template="1" autoplay="0" stop_auto="1" navigation="1" pagination="0" number_row="1"labels="Featured,Best seller,Special,Lastest"}}]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block22-0]]></block_name>
+		<type><![CDATA[promo_banner]]></type>
+		<position><![CDATA[1]]></position>
+		<setting><![CDATA[{"animation":"","animation_delay":"50","text_colour":"","link_colour":"","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","banner_id":"banner_2_left"}]]></setting>
+		<col><![CDATA[8]]></col>
+		<class><![CDATA[margin-bottom30 button-link organic-banner]]></class>
+		<block_content><![CDATA[{{widget type="MGS\Promobanners\Block\Widget\Banner" banner_id="banner_2_left" template="banner.phtml"}}]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block22-0]]></block_name>
+		<type><![CDATA[promo_banner]]></type>
+		<position><![CDATA[2]]></position>
+		<setting><![CDATA[{"animation":"","animation_delay":"50","text_colour":"","link_colour":"","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","banner_id":"banner_2_right"}]]></setting>
+		<col><![CDATA[4]]></col>
+		<class><![CDATA[margin-bottom30 button-link organic-banner]]></class>
+		<block_content><![CDATA[{{widget type="MGS\Promobanners\Block\Widget\Banner" banner_id="banner_2_right" template="banner.phtml"}}]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block23-0]]></block_name>
+		<type><![CDATA[static]]></type>
+		<position><![CDATA[1]]></position>
+		<setting><![CDATA[{"animation":"","animation_delay":"50"}]]></setting>
+		<col><![CDATA[3]]></col>
+		<class><![CDATA[width-20 category-list]]></class>
+		<block_content><![CDATA[<ul class="resp-tabs-list">
+<li class="category-title">Garden</li>
+<li><span class="tab-title"><a href="#">Fruits</a></span></li>
+<li><span class="tab-title"><a href="#">Vegetables</a></span></li>
+<li><span class="tab-title"><a href="#">Dried Fruits</a></span></li>
+<li><span class="tab-title"><a href="#">Juice</a></span></li>
+<li class="product-button"><a class="button-text" href="#" target="_blank">All Category</a></li>
+</ul>]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block23-0]]></block_name>
+		<type><![CDATA[sale]]></type>
+		<position><![CDATA[2]]></position>
+		<setting><![CDATA[{"title":"","additional_content":"","animation":"","animation_delay":"50","limit":"8","perrow":"4","numbercol":"1","percol":"","template":"grid.phtml","ratio":"1","use_slider":"1","number_row":"1","navigation":"1","category_id":["67"],"text_colour":"","link_colour":"","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","autoplay":0,"stop_auto":0,"pagination":0,"use_tabs":0,"loadmore":0}]]></setting>
+		<col><![CDATA[9]]></col>
+		<class><![CDATA[width-80 product-list]]></class>
+		<block_content><![CDATA[{{block class="MGS\Mpanel\Block\Products\Sale" mgs_panel_title="" mgs_panel_note="" limit="8" ratio="1" category_ids="67" use_slider="1" loadmore="0" template="products/sale/grid.phtml" perrow="4" autoplay="0" stop_auto="0" navigation="1" pagination="0" number_row="1"}}]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block24-0]]></block_name>
+		<type><![CDATA[promo_banner]]></type>
+		<position><![CDATA[1]]></position>
+		<setting><![CDATA[{"animation":"","animation_delay":"50","text_colour":"","link_colour":"","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","banner_id":"banner_3_left"}]]></setting>
+		<col><![CDATA[4]]></col>
+		<class><![CDATA[margin-bottom30 button-link organic-banner]]></class>
+		<block_content><![CDATA[{{widget type="MGS\Promobanners\Block\Widget\Banner" banner_id="banner_3_left" template="banner.phtml"}}]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block24-0]]></block_name>
+		<type><![CDATA[promo_banner]]></type>
+		<position><![CDATA[2]]></position>
+		<setting><![CDATA[{"animation":"","animation_delay":"50","text_colour":"","link_colour":"","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","banner_id":"banner_3_right"}]]></setting>
+		<col><![CDATA[8]]></col>
+		<class><![CDATA[margin-bottom30 button-link organic-banner]]></class>
+		<block_content><![CDATA[{{widget type="MGS\Promobanners\Block\Widget\Banner" banner_id="banner_3_right" template="banner.phtml"}}]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block25-0]]></block_name>
+		<type><![CDATA[static]]></type>
+		<position><![CDATA[1]]></position>
+		<setting><![CDATA[{"animation":"","animation_delay":"50"}]]></setting>
+		<col><![CDATA[4]]></col>
+		<class><![CDATA[width-20 category-list]]></class>
+		<block_content><![CDATA[<ul class="resp-tabs-list">
+<li class="category-title">Vegetables</li>
+<li><span class="tab-title"><a href="#">Dark Green</a></span></li>
+<li><span class="tab-title"><a href="#">Orange Vegetables</a></span></li>
+<li><span class="tab-title"><a href="#">Beans &amp; Peas</a></span></li>
+<li><span class="tab-title"><a href="#">Starchy Vegetables</a></span></li>
+<li class="product-button"><a class="button-text" target="_blank" href="#">All Category</a></li>
+</ul>]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block25-0]]></block_name>
+		<type><![CDATA[category_products]]></type>
+		<position><![CDATA[2]]></position>
+		<setting><![CDATA[{"title":"","additional_content":"","animation":"","animation_delay":"50","limit":"8","perrow":"4","numbercol":"1","percol":"","template":"grid.phtml","ratio":"1","use_slider":"1","number_row":"1","navigation":"1","category_id":["69","73","74","75"],"text_colour":"","link_colour":"","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","autoplay":0,"stop_auto":0,"pagination":0,"use_tabs":0,"loadmore":0}]]></setting>
+		<col><![CDATA[8]]></col>
+		<class><![CDATA[width-80 product-list]]></class>
+		<block_content><![CDATA[{{block class="MGS\Mpanel\Block\Products\Category" mgs_panel_title="" mgs_panel_note="" limit="8" ratio="1" category_ids="69,73,74,75" use_slider="1" loadmore="0" template="products/category_products/grid.phtml" perrow="4" autoplay="0" stop_auto="0" navigation="1" pagination="0" number_row="1"}}]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block26-0]]></block_name>
+		<type><![CDATA[brands]]></type>
+		<position><![CDATA[1]]></position>
+		<setting><![CDATA[{"title":"","additional_content":"","animation":"","animation_delay":"50","limit":"8","perrow":"5","brand_by":"all","use_slider":"1","number_row":"1","autoplay":"1","navigation":"1","stop_auto":0,"pagination":0}]]></setting>
+		<col><![CDATA[12]]></col>
+		<class><![CDATA[]]></class>
+		<block_content><![CDATA[{{block class="MGS\Brand\Block\Widget\Home" mgs_panel_title="" mgs_panel_note="" limit="8" perrow="5" use_slider="1" brand_by="all" template="widget/home.phtml" autoplay="1" stop_auto="0" navigation="1" pagination="0" number_row="1"}}]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block18-0]]></block_name>
+		<type><![CDATA[owl_banner]]></type>
+		<position><![CDATA[1]]></position>
+		<setting><![CDATA[{"block_link":"","animation":"","animation_delay":"","removeimg":["","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""],"html_slider":"<div data-text-position=\"middle\" data-text-animate=\"slideInUp\" class=\"item slideInUp\"><a class=\"item-image\" href=\"\" style=\"background-image:url(https:\/\/themes.magesolution.com\/claue\/m2\/pub\/media\/wysiwyg\/slider\/slider-food1.jpg)\"><img class=\"img-responsive\" src=\"https:\/\/themes.magesolution.com\/claue\/m2\/pub\/media\/wysiwyg\/slider\/slider-food1.jpg\" alt=\"\"><\/a><div class=\"container slide-text middle\"><div class=\"inner-text\"><div class=\"slider-content organic-slide\" style=\"text-align: center;\">\r\n<h5 class=\"special\" style=\"margin-bottom: 25px;font-size: 23px;line-height: 20px;\">Special Discount On Sale<\/h5>\r\n<h2 class=\"text-bottom\" style=\"font-size: 40px;margin-bottom: 20px; font-weight:500\">Organic Vegetables<\/h2>\r\n<p class=\"text-between\" style=\"font-size: 23px;\">We Supply Highly Quality<\/p>\r\n\r\n<button class=\"btn btn-default\">Buy now<\/button> \r\n<\/div><\/div><\/div><\/div><div data-text-position=\"middle\" data-text-animate=\"slideInDown\" class=\"item slideInDown\"><a class=\"item-image\" href=\"\" style=\"background-image:url(https:\/\/themes.magesolution.com\/claue\/m2\/pub\/media\/wysiwyg\/slider\/slider-food2.jpg)\"><img class=\"img-responsive\" src=\"https:\/\/themes.magesolution.com\/claue\/m2\/pub\/media\/wysiwyg\/slider\/slider-food2.jpg\" alt=\"\"><\/a><div class=\"container slide-text middle\"><div class=\"inner-text\"><div class=\"slider-content organic-slide\" style=\"text-align: center;\">\r\n<h5 class=\"special\" style=\"margin-bottom: 25px;font-size: 23px;line-height: 20px;\">Special Discount On Sale<\/h5>\r\n<h2 class=\"text-bottom\" style=\"font-size: 40px;margin-bottom: 20px; font-weight:500\">Organic Vegetables<\/h2>\r\n<p class=\"text-between\" style=\"font-size: 23px;\">We Supply Highly Quality<\/p>\r\n\r\n<button class=\"btn btn-default\">Buy now<\/button> \r\n<\/div><\/div><\/div><\/div>","fullscreen":"1","offset":"","effect":"1","autoplay":"1","speed":"100","stop_auto":"1","navigation":"1","navtemple":"1","loop":"1","pagination":0,"fullheight":0}]]></setting>
+		<col><![CDATA[12]]></col>
+		<class><![CDATA[]]></class>
+		<block_content><![CDATA[{{block class="MGS\Mpanel\Block\Widget\OwlCarousel" fullscreen="1" autoplay="1" stop_auto="1" navigation="1" offset="" fullheight="0" pagination="0" loop="1" speed="100" html_slider="&lt;div data-text-position=&quot;middle&quot; data-text-animate=&quot;slideInUp&quot; class=&quot;item slideInUp&quot;&gt;&lt;a class=&quot;item-image&quot; href=&quot;&quot; style=&quot;background-image:url(https://themes.magesolution.com/claue/m2/pub/media/wysiwyg/slider/slider-food1.jpg)&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;https://themes.magesolution.com/claue/m2/pub/media/wysiwyg/slider/slider-food1.jpg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;div class=&quot;container slide-text middle&quot;&gt;&lt;div class=&quot;inner-text&quot;&gt;&lt;div class=&quot;slider-content organic-slide&quot; style=&quot;text-align: center;&quot;&gt;
+&lt;h5 class=&quot;special&quot; style=&quot;margin-bottom: 25px;font-size: 23px;line-height: 20px;&quot;&gt;Special Discount On Sale&lt;/h5&gt;
+&lt;h2 class=&quot;text-bottom&quot; style=&quot;font-size: 40px;margin-bottom: 20px; font-weight:500&quot;&gt;Organic Vegetables&lt;/h2&gt;
+&lt;p class=&quot;text-between&quot; style=&quot;font-size: 23px;&quot;&gt;We Supply Highly Quality&lt;/p&gt;
+
+&lt;button class=&quot;btn btn-default&quot;&gt;Buy now&lt;/button&gt; 
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div data-text-position=&quot;middle&quot; data-text-animate=&quot;slideInDown&quot; class=&quot;item slideInDown&quot;&gt;&lt;a class=&quot;item-image&quot; href=&quot;&quot; style=&quot;background-image:url(https://themes.magesolution.com/claue/m2/pub/media/wysiwyg/slider/slider-food2.jpg)&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;https://themes.magesolution.com/claue/m2/pub/media/wysiwyg/slider/slider-food2.jpg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;div class=&quot;container slide-text middle&quot;&gt;&lt;div class=&quot;inner-text&quot;&gt;&lt;div class=&quot;slider-content organic-slide&quot; style=&quot;text-align: center;&quot;&gt;
+&lt;h5 class=&quot;special&quot; style=&quot;margin-bottom: 25px;font-size: 23px;line-height: 20px;&quot;&gt;Special Discount On Sale&lt;/h5&gt;
+&lt;h2 class=&quot;text-bottom&quot; style=&quot;font-size: 40px;margin-bottom: 20px; font-weight:500&quot;&gt;Organic Vegetables&lt;/h2&gt;
+&lt;p class=&quot;text-between&quot; style=&quot;font-size: 23px;&quot;&gt;We Supply Highly Quality&lt;/p&gt;
+
+&lt;button class=&quot;btn btn-default&quot;&gt;Buy now&lt;/button&gt; 
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" navtemple="1" effect="1" template="widget/owl_slider.phtml"}}]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block28-0]]></block_name>
+		<type><![CDATA[static]]></type>
+		<position><![CDATA[1]]></position>
+		<setting><![CDATA[{"animation":"","animation_delay":""}]]></setting>
+		<col><![CDATA[12]]></col>
+		<class><![CDATA[]]></class>
+		<block_content><![CDATA[<div class="icon-service">
+<div class="icon"><i class="pe-7s-car"> </i></div>
+<div class="text">
+<h6 class="margin-bottom5">FREE SHIPPING</h6>
+<p class="no-margin">Free shipping on all US order or order above $200</p>
+</div>
+</div>]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block28-1]]></block_name>
+		<type><![CDATA[static]]></type>
+		<position><![CDATA[1]]></position>
+		<setting><![CDATA[{"animation":"","animation_delay":""}]]></setting>
+		<col><![CDATA[12]]></col>
+		<class><![CDATA[]]></class>
+		<block_content><![CDATA[<div class="icon-service">
+<div class="icon"><i class="pe-7s-help2"> </i></div>
+<div class="text">
+<h6 class="margin-bottom5">SUPPORT 24/7</h6>
+<p class="no-margin">Contact us 24 hours a day, 7 days a week</p>
+</div>
+</div>]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block28-2]]></block_name>
+		<type><![CDATA[static]]></type>
+		<position><![CDATA[1]]></position>
+		<setting><![CDATA[{"animation":"","animation_delay":""}]]></setting>
+		<col><![CDATA[12]]></col>
+		<class><![CDATA[]]></class>
+		<block_content><![CDATA[<div class="icon-service">
+<div class="icon"><i class="pe-7s-refresh"> </i></div>
+<div class="text">
+<h6 class="margin-bottom5">30 DAYS RETURN</h6>
+<p class="no-margin">Simply return it within 30 days for an exchange.</p>
+</div>
+</div>]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block28-3]]></block_name>
+		<type><![CDATA[static]]></type>
+		<position><![CDATA[1]]></position>
+		<setting><![CDATA[{"animation":"","animation_delay":""}]]></setting>
+		<col><![CDATA[12]]></col>
+		<class><![CDATA[]]></class>
+		<block_content><![CDATA[<div class="icon-service">
+<div class="icon"><i class="pe-7s-door-lock"> </i></div>
+<div class="text">
+<h6 class="margin-bottom5">100% PAYMENT SECURE</h6>
+<p class="no-margin">We ensure secure payment with PEV</p>
+</div>
+</div>]]></block_content>
+	</block>
+	<promo_banner>
+		<item>
+			<title><![CDATA[banner_1_left]]></title>
+			<filename><![CDATA[/s/u/sub-banner-01_2.jpg]]></filename>
+			<url><![CDATA[#]]></url>
+			<button><![CDATA[]]></button>
+			<text_align><![CDATA[top-left]]></text_align>
+			<content><![CDATA[<span class="static-wrapper cms-left-text"><span class="text1 static-text">Fresh Peaches Fruit</span><span class="text2 static-text">25% Flat</span><span class="banner-text"><button class="btn btn-default">Shop Now</button></span></span>]]></content>
+			<effect><![CDATA[flashed-square]]></effect>
+			<custom_class><![CDATA[]]></custom_class>
+			<status><![CDATA[1]]></status>
+			<identifier><![CDATA[banner_1_left]]></identifier>
+		</item>
+		<item>
+			<title><![CDATA[banner_1_right]]></title>
+			<filename><![CDATA[/s/u/sub-banner-02_1.jpg]]></filename>
+			<url><![CDATA[#]]></url>
+			<button><![CDATA[]]></button>
+			<text_align><![CDATA[top-left]]></text_align>
+			<content><![CDATA[<span class="static-wrapper cms-left-text"><span class="text1 static-text">American Apple</span><span class="text2 static-text" >20% Flat</span><span class="banner-text"><button class="btn btn-default">Shop Now</button></span></span>]]></content>
+			<effect><![CDATA[flashed-square]]></effect>
+			<custom_class><![CDATA[]]></custom_class>
+			<status><![CDATA[1]]></status>
+			<identifier><![CDATA[banner_1_right]]></identifier>
+		</item>
+		<item>
+			<title><![CDATA[banner_2_left]]></title>
+			<filename><![CDATA[/s/u/sub-banner-03_1.jpg]]></filename>
+			<url><![CDATA[#]]></url>
+			<button><![CDATA[]]></button>
+			<text_align><![CDATA[top-left]]></text_align>
+			<content><![CDATA[<span class="static-wrapper cms-left-text"><span class="text1 static-text" >On All Fresh Vegetables</span><span class="text2 static-text" >Sale 30% Off</span><span class="banner-text"><button class="btn btn-default">Shop Now</button></span></span>]]></content>
+			<effect><![CDATA[flashed-square]]></effect>
+			<custom_class><![CDATA[]]></custom_class>
+			<status><![CDATA[1]]></status>
+			<identifier><![CDATA[banner_2_left]]></identifier>
+		</item>
+		<item>
+			<title><![CDATA[banner_2_right]]></title>
+			<filename><![CDATA[/s/u/sub-banner-04_1.jpg]]></filename>
+			<url><![CDATA[#]]></url>
+			<button><![CDATA[]]></button>
+			<text_align><![CDATA[top-left]]></text_align>
+			<content><![CDATA[<span class="static-wrapper cms-left-text"><span class="text1 static-text" ">Fresh Chestnut</span><span class="text2 static-text" >40% Flat</span><span class="banner-text"><button class="btn btn-default">Shop Now</button></span></span>]]></content>
+			<effect><![CDATA[flashed-square]]></effect>
+			<custom_class><![CDATA[]]></custom_class>
+			<status><![CDATA[1]]></status>
+			<identifier><![CDATA[banner_2_right]]></identifier>
+		</item>
+		<item>
+			<title><![CDATA[banner_3_left]]></title>
+			<filename><![CDATA[/s/u/sub-banner-05_1.jpg]]></filename>
+			<url><![CDATA[]]></url>
+			<button><![CDATA[]]></button>
+			<text_align><![CDATA[top-left]]></text_align>
+			<content><![CDATA[<span class="static-wrapper cms-left-text"><span class="text1 static-text">Orange Juice</span><span class="text2 static-text">40% Flat</span><button class="btn btn-default" onclick="setLocation('#')" style="font-size:14px;">Shop Now</button></span>]]></content>
+			<effect><![CDATA[flashed-square]]></effect>
+			<custom_class><![CDATA[]]></custom_class>
+			<status><![CDATA[1]]></status>
+			<identifier><![CDATA[banner_3_left]]></identifier>
+		</item>
+		<item>
+			<title><![CDATA[banner_3_right]]></title>
+			<filename><![CDATA[/s/u/sub-banner-06_2.jpg]]></filename>
+			<url><![CDATA[#]]></url>
+			<button><![CDATA[]]></button>
+			<text_align><![CDATA[top-left]]></text_align>
+			<content><![CDATA[<span class="static-wrapper cms-left-text"><span class="text1 static-text" style="color:#000000;">Healthy Organic Vegetables</span><span class="text2 static-text" style="color:#000000;">Sale 20% Off</span><button class="btn btn-default">Shop Now</button></span>]]></content>
+			<effect><![CDATA[flashed-square]]></effect>
+			<custom_class><![CDATA[]]></custom_class>
+			<status><![CDATA[1]]></status>
+			<identifier><![CDATA[banner_3_right]]></identifier>
+		</item>
+	</promo_banner>
+	<theme_setting>
+		<general>
+			<back_to_top>1</back_to_top>
+			<footer>footer</footer>
+			<header>header_13</header>
+			<layout>wide</layout>
+			<sticky_menu>1</sticky_menu>
+			<sticky_menu_mobile>0</sticky_menu_mobile>
+			<width>width1200</width>
+		</general>
+		<fonts>
+			<btn>Poppins</btn>
+			<custom_fonts_element>blockquote,.sub-title, .content-heading .block-note</custom_fonts_element>
+			<custom_font_fml>Libre+Baskerville</custom_font_fml>
+			<default_font>Poppins</default_font>
+			<h1>Poppins</h1>
+			<h2>Poppins</h2>
+			<h3>Poppins</h3>
+			<h4>Poppins</h4>
+			<h5>Poppins</h5>
+			<h6>Poppins</h6>
+			<menu>Poppins</menu>
+			<price>Poppins</price>
+		</fonts>
+		<custom_style>
+			<style>.big-item .products-grid .product-item-info.metro_template .product-top a.photo{padding-top:calc(133.3333% - 10px)!important}.products-grid .big-item .product-item-info.metro_template .product-top a.photo{padding-bottom:calc(133.3333% - 10px)!important}@media (min-width:1200px){.cms-index-index .header.header8 .vertical-menu-widget .vertical-menu{padding-bottom:60px}.header.header10 .navigation .nav-main-menu{transform:translateX(20px);-moz-transform:translateX(20px);-webkit-transform:translateX(20px);-ms-transform:translateX(20px)}}.header.header9 .vertical-menu-widget .vertical-menu{padding-bottom:31px}.rotate-image-container .rotate-j360{cursor:move}.mgs-quickview-catalog-product-view .product-detail-infomation.col-xs-12{height:auto!important}
+@media (min-width: 1200px){.header .close-nav-button{left:-50px}}
+@media (max-width: 767px) {.sub-categories{display: none}}
+.success-ajax--popup .mfp-iframe-holder .mfp-close{top: -13px !important}
+
+.page-layout-3columns .category-product-actions .filter-toggle,
+.page-layout-2columns-right .category-product-actions .filter-toggle,
+.page-layout-2columns-left .category-product-actions .filter-toggle {
+	display: none;
+}
+.filter .filter-title{
+	display: none;
+}
+.page-layout-1column .category-product-actions .filter-toggle {
+    float: left;
+    width: 20%;
+}
+.filter-open .page-layout-1column .category-product-actions .filter-toggle .title:after {
+	position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #000;
+    opacity: 0.8;
+    display: block;
+    content: "";
+    z-index: 998;
+}
+.page-layout-1column .category-product-actions .filter-toggle .title {
+	font-size: 36px;
+    cursor: pointer;
+    line-height: 1;
+    color: #222;
+}
+.page-layout-1column .category-product-actions .filter-toggle .title > span{
+	-moz-transform:rotate(-90deg);
+    -ms-transform:rotate(-90deg);
+    -o-transform:rotate(-90deg);
+    -webkit-transform:rotate(-90deg);
+}
+.filter-open .page-layout-1column .block.filter .block-content.filter-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -o-transform: translateX(0);
+}
+@media (max-width: 991px) {
+    .checkout-container {
+        z-index: 98;
+    }
+}
+.catalog-product-view .lazy-loading-img .page-main > div.row {
+    margin-right: 0px;
+}
+.header.header5 .table-icon-menu .minicart-wrapper .block-minicart{left: auto;z-index: 999}
+.minicart-wrapper.active:after{opacity:0.7}
+.product-detail-infomation-sticky-parent > .col-xs-12 + div { width: 50% !important; }
+.header.header9.active-sticky .middle-header-content .logo-header .logo,
+.header.header8.active-sticky .middle-header-content .logo-header .logo{padding: 0 !important}
+.header .logo-left-header .logo {
+    display: block;
+    text-align: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 5px 0;
+    min-height: 51px;
+}
+.search-open .search-form .mgs-instant-search-dropdown{top: calc(100% + 20px)}
+.header.header5 .dropdown-switcher{float:none;position: relative;text-align: center;margin-left: 0;display: inline-block;}
+.header5 .dropdown-switcher .dropdown-menu{left:0; right:auto}
+.header5 .switchers{display:block!important;padding:0!important}
+.product-detail-infomation-slide-gallery .price-box .old-price{float:none}
+.slide-text .btn-default {
+  background-color: transparent;
+}
+.slide-text .btn-default:hover {
+  background-color: #56cfe1;
+  border-color: #56cfe1;
+}
+.slide-text .text-colour-white .btn-default {
+  color: #fff;
+  border-color: #fff;
+}
+.slide-text .big-text,.slide-text h2 {
+    font-size: 50px;
+    font-weight: 700;
+}
+.bottom .fullscreen-slider{max-height:700px}
+.slider_mgs_carousel .owl-item .slide-text{left:15px;right:15px}
+.slider_mgs_carousel .owl-item .item-image{background-position: center}
+@media (max-width: 767px) {
+.bottom .fullscreen-slider{height:unset !important}
+.slide-text .big-text, .slide-text h2,.fullscreen-slider .slide-text h2, .fullscreen-slider .slide-text .big-text{font-size:20px}
+.slider_mgs_carousel.owl-carousel .owl-dots,.slide-text .sub-title{display:none}
+}
+.header .search-form.not-full .form-search .form.minisearch .input-text{position: static;}
+.search-form:not(.not-full) .mgs-instant-search-dropdown{top: calc(100% + 20px)}
+.header .logo-left-header .logo{margin:0}
+@media (max-width: 991px){.cms-index-index .header.header6:not(.active-sticky){position: relative}}
+@media (max-width: 1199px){.header5 .switchers{display: none !important}}
+.product-item form .swatch-input, .product-options-wrapper .swatch-attribute .swatch-input{display: block;opacity:0;height:0}
+.header.active-sticky {position: fixed !important}
+.vertical-menu.nav>li>a{padding-left:25px}
+.customer-account-create .account-social-login{margin-top:40px}
+.catalog-product-view .product.media {height: auto !important;}
+@media (min-width: 1200px){.menu_vertical_fixed .header.header5.fixed-bottom{position: fixed !important;}}
+.mfp-iframe-scaler iframe{box-shadow: none;}
+.header{position: absolute !important}
+@media (max-width: 767px) {
+    .lookbook_banner {
+        min-height: unset;
+        height: 100vh;
+        max-height: 100vw;
+    }
+}
+body._has-modal-custom:before{content:none}
+.dropdown-backdrop{display:none}
+/* Filter 2 coloumns responsive */
+@media (max-width: 991px) {
+  body:not(.page-layout-1column) .toolbar .sorter {
+    text-align: right !important;
+  }
+  .catalog-category-view.page-layout-3columns .category-product-actions .toolbar.toolbar-products,
+  .catalog-category-view.page-layout-2columns-right .category-product-actions .toolbar.toolbar-products,
+  .catalog-category-view.page-layout-2columns-left .category-product-actions .toolbar.toolbar-products {
+    float: left;
+    width: 80%;
+  }
+  .catalog-category-view.page-layout-3columns .category-product-actions .filter-toggle,
+  .catalog-category-view.page-layout-2columns-right .category-product-actions .filter-toggle,
+  .catalog-category-view.page-layout-2columns-left .category-product-actions .filter-toggle {
+    display: block;
+    float: left;
+    width: 20%;
+  }
+  .catalog-category-view.page-layout-3columns .category-product-actions .filter-toggle .title,
+  .catalog-category-view.page-layout-2columns-right .category-product-actions .filter-toggle .title,
+  .catalog-category-view.page-layout-2columns-left .category-product-actions .filter-toggle .title {
+    font-size: 36px;
+    cursor: pointer;
+    line-height: 1;
+    color: #222;
+  }
+  .catalog-category-view.page-layout-3columns .category-product-actions .filter-toggle .title:after,
+  .catalog-category-view.page-layout-2columns-right .category-product-actions .filter-toggle .title:after,
+  .catalog-category-view.page-layout-2columns-left .category-product-actions .filter-toggle .title:after {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #000;
+    opacity: 0;
+    display: block;
+    content: "";
+    z-index: 998;
+    visibility: hidden;
+    transition: all 300ms;
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    -o-transition: all 300ms;
+  }
+  .catalog-category-view.page-layout-3columns .category-product-actions .filter-toggle .title > span,
+  .catalog-category-view.page-layout-2columns-right .category-product-actions .filter-toggle .title > span,
+  .catalog-category-view.page-layout-2columns-left .category-product-actions .filter-toggle .title > span {
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+  }
+  .catalog-category-view.page-layout-3columns .block.filter .block-content.filter-content,
+  .catalog-category-view.page-layout-2columns-right .block.filter .block-content.filter-content,
+  .catalog-category-view.page-layout-2columns-left .block.filter .block-content.filter-content {
+    background: #fff;
+    top: 0;
+    bottom: 0;
+    width: 320px;
+    left: 0;
+    right: auto;
+    position: fixed;
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transition: all 300ms;
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    -o-transition: all 300ms;
+    padding: 15px;
+  }
+  .filter-open .catalog-category-view.page-layout-3columns .block.filter .block-content.filter-content,
+  .filter-open .catalog-category-view.page-layout-2columns-right .block.filter .block-content.filter-content,
+  .filter-open .catalog-category-view.page-layout-2columns-left .block.filter .block-content.filter-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -o-transform: translateX(0);
+  }
+  .filter-open .catalog-category-view.page-layout-3columns .category-product-actions .filter-toggle .title:after,
+  .filter-open .catalog-category-view.page-layout-2columns-right .category-product-actions .filter-toggle .title:after,
+  .filter-open .catalog-category-view.page-layout-2columns-left .category-product-actions .filter-toggle .title:after {
+    opacity: 0.8;
+    visibility: visible;
+  }
+}
+.category-product-actions:after{display: table;
+    content: "";
+    clear: both;}
+@media (max-width: 991px){.filter-open .block.filter .block-content.filter-content{ overflow-y: scroll}}
+.block-dashboard-addresses{margin-bottom:60px}
+.nav>li>a:hover, .nav>li>a:focus{background:none}
+.nav>li>strong{color: #56cfe1;    padding: 10px 0;display: inline-block}
+.nav>li>a{padding: 10px 0}
+.sidebar .block .block-title.account-nav-title .title>i{display:none}
+
+.modal_newsletter_popup.modal-popup .newsletter_popup .block-popup-subscribe {
+  max-height: 100vh;
+  overflow-y: auto;
+}
+.modal_newsletter_popup.modal-popup .newsletter_popup {
+  max-width: calc(100% - 30px);
+}
+@media (max-width: 767px) {
+  .modal_newsletter_popup.modal-popup .newsletter-popup-content p {
+    font-size: 0;
+  }
+}
+.mfp-mgs-quickview-frame .mfp-iframe-scaler{padding-top: 62%}
+.owl-carousel .owl-nav > div{line-height: 34px}
+.minicart-wrapper.active:after {
+    opacity: 0.7;
+}
+.dark .header.header6 .megamenu-content,.dark  .header.header7 .megamenu-content {
+background-color: #000;
+}
+.logo-item h1,
+.logo h1 {
+     font-size: initial;
+}
+.navigation .nav-main-menu li.mega-menu-fullwidth > ul.dropdown-menu .sub-menu .label-menu {position: static !important;display: inline-block;margin-left: 10px;transform: translateY(-8px);}
+@media(min-width: 1199px) {
+.page-header-sliders.template-1.fullscreen-slider  .inner-text {
+padding-left: 70px;
+}
+}
+
+@media(max-width: 1199px) {
+    .block-minicart #minicart-content-wrapper .minicart-items-wrapper{
+        max-height: calc(100vh - 300px) !important;
+        overflow-y: scroll !important;
+    }
+}
+.minicart-wrapper .block-content > .actions > .subtotal {
+border-top: 0;
+}
+.minicart-wrapper .block-content .minicart-items-wrapper {
+    max-height: inherit !important;
+}
+.header .logo-header .logo, .header .logo-left-header .logo, .mega-menu-item.megamenu-homelink .logo {
+background-image: none !important;
+}
+#st_gdpr_iframe{display: none !important}
+.header .nav.nav-main-menu > li > a{font-size:16px}
+.slider-content.organic-slide .btn{margin-top:50px; background:#6faf11 !important; border-color:#6faf11 !important; color:#fff; font-size: 16px;height: 45px;padding: 0 40px;}
+.slider-content.organic-slide .btn:hover{background:#638c28 !important; border-color:#638c28 !important}
+.promobanner.flashed-square .banner-text .text2{font-weight:500}
+.product-tab .menu-product-tabs li a{font-size:16px}
+.product-tab .menu-product-tabs li.active a{border:none; color:#6faf11}
+.product-tab .menu-product-tabs li a{border:none !important}
+.button-link .btn{padding:0 !important; background:none !important; border:none !important; font-weight:400; height:30px; border-radius:0; border-bottom:1px solid #000 !important}
+.organic-banner .btn:hover{color:#6faf11; border-color:#6faf11 !important}
+.category-product-list .category-list .category-title{font-weight:500}
+.category-product-list .resp-tabs-list a{font-size:15px}
+@media(max-width: 767px) {
+   .organic-slide h2{font-size:22px !important; margin-bottom:0 !important}
+.organic-slide h5{margin-bottom: 5px !important;font-size: 16px !important;}
+.slider-content.organic-slide .btn{margin-top:15px; font-size: 13px; height: 35px;padding: 0 30px}
+}
+@media (min-width:1500px){
+.slider_mgs_carousel .owl-item .slide-text>* {
+    max-width: 900px !important;
+}
+.slider-content .special{margin-bottom: 35px !important;
+    font-size: 30px !important;
+    line-height: 30px !important;
+}
+.slider-content .text-bottom{font-size: 60px !important;
+    margin-bottom: 30px !important;
+    line-height: 60px !important;}
+.slider-content .text-between{font-size: 30px !important;}
+}</style>
+		</custom_style>
+	</theme_setting>
+	<color_setting>
+		<general>
+			<theme_color>#6faf11</theme_color>
+		</general>
+		<header>
+			<cart_icon_hover>#6faf11</cart_icon_hover>
+			<drd_link_hover_color>#6faf11</drd_link_hover_color>
+			<link_hover_color>#6faf11</link_hover_color>
+			<lv1_color_hover>#6faf11</lv1_color_hover>
+		</header>
+		<main>
+			<button_background_hover>#6faf11</button_background_hover>
+			<button_background_hover_df>#6faf11</button_background_hover_df>
+			<button_border_hover>#6faf11</button_border_hover>
+			<button_border_hover_df>#6faf11</button_border_hover_df>
+			<link_color_hover>#6faf11</link_color_hover>
+			<main_custom>1</main_custom>
+			<primary_button_background_hover>#6faf11</primary_button_background_hover>
+			<primary_button_border_hover>#6faf11</primary_button_border_hover>
+			<secondary_button_background_hover>#6faf11</secondary_button_background_hover>
+			<secondary_button_border_hover>#6faf11</secondary_button_border_hover>
+		</main>
+	</color_setting>
+
+</home>

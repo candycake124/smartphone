@@ -1,0 +1,46 @@
+"Not a valid URL.","عنوان URL غير صالح."
+ID,ID
+SKU,SKU
+Guide,مرشد
+"How to Configure Adwords Conversion Tracking","كيفية تكوين تتبع تحويل Adwords"
+"Google Tag Manager","Google Tag Manager"
+General,جنرال لواء
+Enable,ممكن
+"Select <b>Yes</b> to enable this module.","حدد <b> نعم </ b> لتمكين هذه الوحدة."
+"Select <b>Yes</b> to enable Google Tag Manager.","حدد <b> نعم </ b> لتمكين برنامج إدارة العلامات من Google."
+"ID Variable Base On","معرف المتغير على أساس"
+"Select to specify that ID variable of product is replaced for Product ID or Product SKU","حدد لتحديد أن متغير المعرف الخاص بالمنتج يتم استبداله بمعرف المنتج أو وحدة الاحتفاظ بالمخزون للمنتج"
+"Google Tag ID","Google Tag ID"
+"To get Google Tag ID, register <a href=""https://tagmanager.google.com"" target='_blank'>here</a>. E.g: GTM-XXXXXX","للحصول على Google Tag ID ، سجّل <a href=""https://tagmanager.google.com"" target='_blank'> هنا </a>. على سبيل المثال: GTM-XXXXXX"
+"Google Analytics eCommerce","Google Analytics eCommerce"
+"Select <b>Yes</b> to enable Google Analytics eCommerce.","حدد <b> نعم </ b> لتمكين التجارة الإلكترونية في Google Analytics."
+"Google Analytics Tracking ID","Google Analytics Tracking ID"
+"To get Google Analytics Tracking ID, register <a href=""https://analytics.google.com/analytics/web/"" target='_blank'>here</a>. E.g: UA-12345-6789","للحصول على معرّف تتبع Google Analytics ، سجّل <a href=""https://analytics.google.com/analytics/web/"" target='_blank'> هنا </a>. على سبيل المثال: UA-12345-6789"
+"Second Tracking ID","معرف التتبع الثاني"
+"Add another property ID for the store site. Leave empty if you do not want to use.","أضف معرف خاصية آخر لموقع المتجر. اتركه فارغا إذا كنت لا تريد استخدامه."
+"Enable Enhanced Link Attribution","تفعيل تحسين إحالة الرابط"
+"Enhanced link attribution improves click reports by automatically differentiating between multiple link clicks that have the same URL on a given page.","يعمل تحسين إحالة الرابط على تحسين تقارير النقرات عن طريق التمييز تلقائيًا بين نقرات الارتباط المتعددة التي لها نفس عنوان URL في صفحة معينة."
+"Enable Linker","تمكين الرابط"
+"If Yes, Google Analytics allows you to merge sessions from two related sites (such as an ecommerce site and a separate shopping cart site) as a single session. <br><a href='https://support.google.com/analytics/answer/1033876' target='_blank'>More Details</a>","إذا كانت الإجابة بنعم ، فإن Google Analytics يسمح لك بدمج الجلسات من موقعين مرتبطين (مثل موقع التجارة الإلكترونية وموقع عربة تسوق منفصل) كجلسة واحدة. <br> <a href='https://support.google.com/analytics/answer/1033876' target='_blank'> مزيد من التفاصيل </a>"
+"Linker Domain(s)","مجال (مجالات) الرابط"
+"Seperated by comma(,).","مفصولة بفاصلة (،)."
+"Enable Display Ads (Remarketing)","تمكين الإعلانات الصورية (تجديد النشاط التسويقي)"
+"Google Analytics advertising features (including Remarketing Lists for Search Ads) can be enabled in Google Analytics from Property Settings > Data Collection.<br><a href='https://support.google.com/analytics/answer/2444872' target='_blank'>More Details</a>","يمكن تمكين ميزات Google Analytics الإعلانية (بما في ذلك قوائم تجديد النشاط التسويقي للإعلانات على شبكة البحث) في Google Analytics من إعدادات الموقع> جمع البيانات. <br> <a href = 'https: //support.google.com/analytics/answer/2444872' target = '_ blank'> مزيد من التفاصيل </a>"
+"Enable IP Anonymization","تمكين إخفاء هوية IP"
+"If Yes, Analytics anonymizes the address as soon as technically feasible at the earliest possible stage of the collection network.<br><a href='https://support.google.com/analytics/answer/2763052' target='_blank'>More Details</a>","إذا كانت الإجابة بنعم ، يقوم Analytics بإخفاء هوية العنوان في أقرب وقت ممكن من الناحية الفنية في أقرب مرحلة ممكنة من شبكة التجميع. <br> <a href = 'https: //support.google.com/analytics/answer/2763052' target = '_ blank '> مزيد من التفاصيل </a>"
+"Facebook Pixel","Facebook Pixel"
+Enabled,ممكن
+"Select <b>Yes</b> to enable Facebook Pixel.","حدد <b> نعم </ b> لتمكين Facebook Pixel."
+"Facebook Pixel ID","Facebook Pixel ID"
+"To get Facebook Pixel ID, register <a href=""https://business.facebook.com/events_manager"" target='_blank'>here</a>. E.g: 195027827612345","للحصول على Facebook Pixel ID ، سجّل <a href=""https://business.facebook.com/events_manager"" target='_blank'> هنا </a>. على سبيل المثال: 195027827612345"
+"Google Adwords Conversion Tracking","جوجل Adwords تتبع التحويل"
+Guid,دليل
+"Deduct Tax From Transaction","خصم الضريبة من المعاملة"
+"Enable Brand","تمكين العلامة التجارية"
+"Brand Attribute","سمة العلامة التجارية"
+"Enable Variant","تمكين المتغير"
+"Deduct Shipping From Transaction","خصم الشحن من المعاملة"
+"Tax Deduction On Shipping","خصم الضريبة على الشحن"
+"Ignore Orders with value 0","تجاهل الطلبات ذات القيمة 0"
+"Google Analytics 4","Google Analytics 4"
+

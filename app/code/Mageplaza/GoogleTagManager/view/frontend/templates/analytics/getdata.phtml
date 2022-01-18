@@ -1,0 +1,49 @@
+<?php
+/**
+ * Mageplaza
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Mageplaza.com license that is
+ * available through the world-wide-web at this URL:
+ * https://www.mageplaza.com/LICENSE.txt
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade this extension to newer
+ * version in the future.
+ *
+ * @category    Mageplaza
+ * @package     Mageplaza_GoogleTagManager
+ * @copyright   Copyright (c) Mageplaza (https://www.mageplaza.com/)
+ * @license     https://www.mageplaza.com/LICENSE.txt
+ */
+
+/** @var \Mageplaza\GoogleTagManager\Block\Tag\AnalyticsTag $block */
+?>
+<!--Analytics Added by Mageplaza GTM -->
+<?php if ($block->canShowAnalytics()) : ?>
+    <?php $data = $block->getAnalyticsData(); ?>
+    <?php if (isset($data) && !empty($data['event_name'])) : ?>
+        <?php foreach ($data['event_name'] as $event) : ?>
+            <script>
+                gtag(
+                    'event',
+                    '<?= /** @noEscape */ $event ?>',
+                    <?= /** @noEscape */ $block->encodeJs($data['data']) ?>
+                );
+            </script>
+            <?php if (!empty($data['step'])) : ?>
+                <script>
+                    gtag(
+                        'event',
+                        '<?= /** @noEscape */ $data['step']['event'] ?>', {
+                            "checkout_step": <?= /** @noEscape */ $data['step']['checkout_step'] ?>,
+                            "checkout_option": "<?= /** @noEscape */ $data['step']['checkout_option'] ?>"
+                        }
+                    );
+                </script>
+            <?php endif; ?>
+        <?php endforeach; ?>
+    <?php endif; ?>
+<?php endif; ?>

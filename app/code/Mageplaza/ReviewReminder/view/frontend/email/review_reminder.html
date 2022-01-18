@@ -1,0 +1,39 @@
+<!--
+/**
+ * Mageplaza
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Mageplaza.com license that is
+ * available through the world-wide-web at this URL:
+ * https://www.mageplaza.com/LICENSE.txt
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade this extension to newer
+ * version in the future.
+ *
+ * @category    Mageplaza
+ * @package     Mageplaza_ReviewReminder
+ * @copyright   Copyright (c) Mageplaza (https://www.mageplaza.com/)
+ * @license     https://www.mageplaza.com/LICENSE.txt
+ */
+-->
+<!--@subject {{trans "%store_name review reminder" store_name=$store.getFrontendName()}} @-->
+<!--@styles table{width: 100%;} @-->
+
+{{template config_path="design/email/header_template"}}
+
+<p>{{trans "Hi %name," name=$customer_name}}</p>
+<p>{{trans "Thanks so much for purchasing extensions at %store_name store" store_name=$store.getFrontendName()}}</p>
+<p>{{trans "Leave a review:"}}</p>
+
+<!-- product list -->
+{{block class='Mageplaza\\ReviewReminder\\Block\\Email\\Template' area='frontend' template='Mageplaza_ReviewReminder::email/productlist.phtml' order=$order order_id=$order_id}}
+<!-- /product list -->
+
+<p>{{trans 'Click on the above link to review or just post your review by replying this email.'}}</p>
+
+<br/>
+
+{{template config_path="design/email/footer_template"}}

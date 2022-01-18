@@ -1,0 +1,602 @@
+@media only screen and (min-width: 769px) {
+  .checkout-index-index {
+      overflow-x: hidden;
+  }
+  #checkout .opc-right {
+      width: 33.33333333%;
+      float: right;
+      position: relative;
+  }
+  .checkout-index-index .checkout-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      min-height: 100vh;
+  }
+  #checkout .opc-right::after {
+      content: "";
+      display: block;
+      width: 300%;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      background: #f4f4f4;
+      z-index: -1;
+      background-position: left top;
+      -webkit-box-shadow: 1px 0 0 #cecece inset;
+      box-shadow: 1px 0 0 #cecece inset;
+  }
+  .opc-sidebar.opc-summary-wrapper {
+    width: 100%;
+  }
+  .opc-progress-bar .opc-progress-bar-item {
+      width: 33.33333333%;
+  }
+  .opc-progress-bar .opc-progress-bar-item > span {
+    font-size: 12px;
+    padding-top: 36px;
+  }
+  #checkout .checkout-content {
+      margin: 40px 0;
+      padding-right: 40px;
+      width: 66.66666667%;
+      float: left;
+  }
+  .checkout-index-index .fieldset.address .field[name*="firstname"] {
+    width: 49%;
+  }
+  .checkout-index-index .fieldset.address .field[name*="lastname"] {
+    width: 49%;
+  }
+  .checkout-index-index .fieldset.address .field[name*="telephone"] {
+    width: 49%;
+  }
+  .checkout-index-index .fieldset.address .field[name*="vat_id"] {
+    width: 49%;
+  }
+  .checkout-index-index .fieldset.address .field[name*="company"] {
+    width: 99%;
+  }
+  .checkout-index-index .fieldset.address .field[name*="street.0"] {
+    width: 59%;
+  }
+  .checkout-index-index .fieldset.address .field[name*="street.1"] {
+    width: 19%;
+  }
+  .checkout-index-index .fieldset.address .field[name*="street.2"] {
+    width: 19%;
+  }
+  .checkout-index-index .fieldset.address .field[name*="street.3"] {
+    width: 32%;
+  }
+  .checkout-index-index .fieldset.address .field[name*="city"] {
+    width: 32%;
+  }
+  .checkout-index-index .fieldset.address .field[name*="region_id"] {
+    width: 32%;
+  }
+  .checkout-index-index .fieldset.address .field[name*="region"] {
+    width: 32%;
+  }
+  .checkout-index-index .fieldset.address .field[name*="country_id"] {
+    width: 99%;
+  }
+}
+body._has-modal-custom:before {
+  z-index: unset !important;
+}
+.opc-estimated-wrapper .minicart-wrapper button.action.showcart > .counter.qty {
+  width: 10px;
+}
+.fieldset#identify-by-email-fieldset .field {
+  padding: 0;
+}
+
+.fieldset .field.osc-input-group {
+  position: relative;
+  margin-bottom: 20px;
+  vertical-align: top;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 10px;
+}
+.fieldset .field.osc-input-group .control input[type="text"],
+.fieldset .field.osc-input-group .control input[type="password"],
+.fieldset .field.osc-input-group .control input[type="url"],
+.fieldset .field.osc-input-group .control input[type="tel"],
+.fieldset .field.osc-input-group .control input[type="search"],
+.fieldset .field.osc-input-group .control input[type="number"],
+.fieldset .field.osc-input-group .control input[type="datetime"],
+.fieldset .field.osc-input-group .control input[type="email"],
+.fieldset .field.osc-input-group .control select {
+  height: unset;
+  padding: 1rem 1rem;
+  font-weight: 600;
+  border-radius: 5px;
+  line-height: 1;
+}
+.fieldset .field.osc-input-group .control input[type="text"]::focus,
+.fieldset .field.osc-input-group .control input[type="password"]::focus,
+.fieldset .field.osc-input-group .control input[type="url"]::focus,
+.fieldset .field.osc-input-group .control input[type="tel"]::focus,
+.fieldset .field.osc-input-group .control input[type="search"]::focus,
+.fieldset .field.osc-input-group .control input[type="number"]::focus,
+.fieldset .field.osc-input-group .control input[type="datetime"]::focus,
+.fieldset .field.osc-input-group .control input[type="email"]::focus,
+.fieldset .field.osc-input-group .control select::focus {
+  box-shadow: 0 3px 5px rgba(57, 22, 58, 0.05);
+  border-color: #cccccc;
+}
+.fieldset .field.osc-input-group .control input[type="text"]::placeholder,
+.fieldset .field.osc-input-group .control input[type="password"]::placeholder,
+.fieldset .field.osc-input-group .control input[type="url"]::placeholder,
+.fieldset .field.osc-input-group .control input[type="tel"]::placeholder,
+.fieldset .field.osc-input-group .control input[type="search"]::placeholder,
+.fieldset .field.osc-input-group .control input[type="number"]::placeholder,
+.fieldset .field.osc-input-group .control input[type="datetime"]::placeholder,
+.fieldset .field.osc-input-group .control input[type="email"]::placeholder,
+.fieldset .field.osc-input-group .control select::placeholder {
+  color: transparent;
+}
+.fieldset .field.osc-input-group .control input[type="text"]::-webkit-input-placeholder,
+.fieldset .field.osc-input-group .control input[type="password"]::-webkit-input-placeholder,
+.fieldset .field.osc-input-group .control input[type="url"]::-webkit-input-placeholder,
+.fieldset .field.osc-input-group .control input[type="tel"]::-webkit-input-placeholder,
+.fieldset .field.osc-input-group .control input[type="search"]::-webkit-input-placeholder,
+.fieldset .field.osc-input-group .control input[type="number"]::-webkit-input-placeholder,
+.fieldset .field.osc-input-group .control input[type="datetime"]::-webkit-input-placeholder,
+.fieldset .field.osc-input-group .control input[type="email"]::-webkit-input-placeholder,
+.fieldset .field.osc-input-group .control select::-webkit-input-placeholder {
+  color: transparent;
+}
+.fieldset .field.osc-input-group .control input[type="text"]::-ms-input-placeholder,
+.fieldset .field.osc-input-group .control input[type="password"]::-ms-input-placeholder,
+.fieldset .field.osc-input-group .control input[type="url"]::-ms-input-placeholder,
+.fieldset .field.osc-input-group .control input[type="tel"]::-ms-input-placeholder,
+.fieldset .field.osc-input-group .control input[type="search"]::-ms-input-placeholder,
+.fieldset .field.osc-input-group .control input[type="number"]::-ms-input-placeholder,
+.fieldset .field.osc-input-group .control input[type="datetime"]::-ms-input-placeholder,
+.fieldset .field.osc-input-group .control input[type="email"]::-ms-input-placeholder,
+.fieldset .field.osc-input-group .control select::-ms-input-placeholder {
+  color: transparent;
+}
+.fieldset .field.osc-input-group .control input[type="text"]::-moz-placeholder,
+.fieldset .field.osc-input-group .control input[type="password"]::-moz-placeholder,
+.fieldset .field.osc-input-group .control input[type="url"]::-moz-placeholder,
+.fieldset .field.osc-input-group .control input[type="tel"]::-moz-placeholder,
+.fieldset .field.osc-input-group .control input[type="search"]::-moz-placeholder,
+.fieldset .field.osc-input-group .control input[type="number"]::-moz-placeholder,
+.fieldset .field.osc-input-group .control input[type="datetime"]::-moz-placeholder,
+.fieldset .field.osc-input-group .control input[type="email"]::-moz-placeholder,
+.fieldset .field.osc-input-group .control select::-moz-placeholder {
+  color: transparent;
+}
+.fieldset .field.osc-input-group .control .label {
+  padding: 1rem 1rem;
+  font-weight: normal;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  display: block;
+  margin-bottom: 0;
+  transition: all 0.1s ease-in-out;
+  width: 80%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #000;
+}
+.fieldset .field.osc-input-group .control select:not(:checked),
+.fieldset .field.osc-input-group .control input:not(:placeholder-shown) {
+  padding-top: calc(1.66666667rem) !important;
+  padding-bottom: calc(0.33333333rem) !important;
+}
+.fieldset .field.osc-input-group .control select:not(:checked) ~ .label,
+.fieldset .field.osc-input-group .control input:not(:placeholder-shown) ~ .label {
+  padding-top: calc(0.33333333rem) !important;
+  padding-bottom: calc(0.33333333rem) !important;
+  font-size: 10px;
+}
+.checkout-index-index .step-title,
+.checkout-index-index .opc-block-summary > .title {
+  font-weight: 300;
+  line-height: 1.1;
+  font-size: 2.6rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.fieldset .field.osc-input-group .control select:not(:checked) ~ .label, .fieldset .field.osc-input-group .control input:not(:placeholder-shown) ~ .label {
+    padding-top: calc(0.33333333rem) !important;
+    padding-bottom: calc(0.33333333rem) !important;
+    font-size: 10px;
+}
+.fieldset .field.osc-input-group .control._with-tooltip input {
+  width: 100%;
+}
+.fieldset .field.osc-input-group .control._with-tooltip .field-tooltip {
+  top: 6px;
+  right: 5px;
+}
+
+.minicart-items-wrapper .product-item-inner {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.minicart-items-wrapper .product-item-name-block {
+  flex:  2;
+}
+.minicart-items .product-item .product-item-details {
+  width: 100%;
+}
+
+
+button.action {
+  padding: 10px 10px;
+  min-width: 200px;
+  text-align: center;
+  padding: 9px 20px;
+  background-color: #56cfe1;
+  border: 1px solid #56cfe1;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 0.1em;
+  color: #fff;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -o-border-radius: 40px;
+  height: auto;
+}
+
+span.payment-method-label-title {
+  margin-left: 10px;
+}
+#payment_form_cc_moip_magento2_cc .legend-icon, #payment_form_cc_moip_magento2_cc_vault .legend-icon, #payment_form_cc_moip_magento2_boleto .legend-icon {
+    margin-right: 0;
+}
+#payment_form_cc_moip_magento2_cc .legend, #payment_form_cc_moip_magento2_cc_vault .legend, #payment_form_cc_moip_magento2_boleto .legend {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom: 1px solid;
+    border-color: #bbbbbb;
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+    width: 100%;
+    height: auto;
+    clip: unset;
+    position: relative;
+}
+
+.wirecard-input-group .control._with-tooltip {
+  padding-right: 0;
+}
+
+#payment_form_moip_magento2_cc .legend .credit-card-types .item img,
+#payment_form_moip_magento2_cc_vault .legend .credit-card-types .item img {
+    width: 40px;
+}
+
+#payment_form_cc_moip_magento2_cc,
+#payment_form_cc_moip_magento2_cc_vault,
+#payment_form_cc_moip_magento2_boleto {
+  border: 1px solid;
+  border-color: #bbbbbb;
+}
+#payment_form_cc_moip_magento2_cc .legend,
+#payment_form_cc_moip_magento2_cc_vault .legend,
+#payment_form_cc_moip_magento2_boleto .legend {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom: 1px solid;
+  border-color: #bbbbbb;
+  padding: 10px 20px;
+  background-color: #f4f4f4;
+  width: 100%;
+}
+#payment_form_cc_moip_magento2_cc .legend-icon,
+#payment_form_cc_moip_magento2_cc_vault .legend-icon,
+#payment_form_cc_moip_magento2_boleto .legend-icon {
+  margin-right: 0;
+}
+#payment_form_cc_moip_magento2_cc .not-editable-title,
+#payment_form_cc_moip_magento2_cc_vault .not-editable-title,
+#payment_form_cc_moip_magento2_boleto .not-editable-title {
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.1;
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding: 20px;
+}
+#payment_form_moip_magento2_cc .payment-method-label,
+#payment_form_moip_magento2_cc_vault .payment-method-label,
+#payment_form_moip_magento2_boleto .payment-method-label {
+  display: inline-flex;
+  align-items: center;
+}
+#payment_form_moip_magento2_cc .payment-method-label .payment-method-label-icon,
+#payment_form_moip_magento2_cc_vault .payment-method-label .payment-method-label-icon,
+#payment_form_moip_magento2_boleto .payment-method-label .payment-method-label-icon {
+  width: 25px;
+  text-align: center;
+  line-height: 1;
+  padding-right: 10px;
+}
+#payment_form_moip_magento2_cc .payment-method-label .payment-method-label-icon img,
+#payment_form_moip_magento2_cc_vault .payment-method-label .payment-method-label-icon img,
+#payment_form_moip_magento2_boleto .payment-method-label .payment-method-label-icon img {
+  width: 25px;
+}
+#payment_form_moip_magento2_cc .legend .credit-card-types .item,
+#payment_form_moip_magento2_cc_vault .legend .credit-card-types .item,
+#payment_form_moip_magento2_boleto .legend .credit-card-types .item {
+  display: inline-block;
+  list-style: none;
+  margin: 0 5px 0 0;
+  vertical-align: top;
+}
+#payment_form_moip_magento2_cc .legend .credit-card-types .item img,
+#payment_form_moip_magento2_cc_vault .legend .credit-card-types .item img,
+#payment_form_moip_magento2_boleto .legend .credit-card-types .item img {
+  -webkit-filter: grayscale(0%);
+  width: 20px;
+}
+#payment_form_moip_magento2_cc .field-to-pay,
+#payment_form_moip_magento2_cc_vault .field-to-pay,
+#payment_form_moip_magento2_boleto .field-to-pay {
+  margin: 0 20px;
+}
+#payment_form_moip_magento2_cc .fieldset .field,
+#payment_form_moip_magento2_cc_vault .fieldset .field,
+#payment_form_moip_magento2_boleto .fieldset .field {
+  display: inline-block;
+  width: 100%;
+}
+#payment_form_moip_magento2_cc .fieldset .field.choice,
+#payment_form_moip_magento2_cc_vault .fieldset .field.choice,
+#payment_form_moip_magento2_boleto .fieldset .field.choice {
+  margin-bottom: 20px;
+}
+#payment_form_moip_magento2_cc .fieldset .field.wirecard-input-group,
+#payment_form_moip_magento2_cc_vault .fieldset .field.wirecard-input-group,
+#payment_form_moip_magento2_boleto .fieldset .field.wirecard-input-group {
+  position: relative;
+  margin-bottom: 20px;
+  vertical-align: top;
+  display: inline-block;
+  box-sizing: border-box;
+  margin-top: 0;
+}
+#payment_form_moip_magento2_cc .fieldset .field.wirecard-input-group .control input[type="text"],
+#payment_form_moip_magento2_cc_vault .fieldset .field.wirecard-input-group .control input[type="text"],
+#payment_form_moip_magento2_boleto .fieldset .field.wirecard-input-group .control input[type="text"],
+#payment_form_moip_magento2_cc .fieldset .field.wirecard-input-group .control input[type="password"],
+#payment_form_moip_magento2_cc_vault .fieldset .field.wirecard-input-group .control input[type="password"],
+#payment_form_moip_magento2_boleto .fieldset .field.wirecard-input-group .control input[type="password"],
+#payment_form_moip_magento2_cc .fieldset .field.wirecard-input-group .control input[type="url"],
+#payment_form_moip_magento2_cc_vault .fieldset .field.wirecard-input-group .control input[type="url"],
+#payment_form_moip_magento2_boleto .fieldset .field.wirecard-input-group .control input[type="url"],
+#payment_form_moip_magento2_cc .fieldset .field.wirecard-input-group .control input[type="tel"],
+#payment_form_moip_magento2_cc_vault .fieldset .field.wirecard-input-group .control input[type="tel"],
+#payment_form_moip_magento2_boleto .fieldset .field.wirecard-input-group .control input[type="tel"],
+#payment_form_moip_magento2_cc .fieldset .field.wirecard-input-group .control input[type="search"],
+#payment_form_moip_magento2_cc_vault .fieldset .field.wirecard-input-group .control input[type="search"],
+#payment_form_moip_magento2_boleto .fieldset .field.wirecard-input-group .control input[type="search"],
+#payment_form_moip_magento2_cc .fieldset .field.wirecard-input-group .control input[type="number"],
+#payment_form_moip_magento2_cc_vault .fieldset .field.wirecard-input-group .control input[type="number"],
+#payment_form_moip_magento2_boleto .fieldset .field.wirecard-input-group .control input[type="number"],
+#payment_form_moip_magento2_cc .fieldset .field.wirecard-input-group .control input[type="datetime"],
+#payment_form_moip_magento2_cc_vault .fieldset .field.wirecard-input-group .control input[type="datetime"],
+#payment_form_moip_magento2_boleto .fieldset .field.wirecard-input-group .control input[type="datetime"],
+#payment_form_moip_magento2_cc .fieldset .field.wirecard-input-group .control input[type="email"],
+#payment_form_moip_magento2_cc_vault .fieldset .field.wirecard-input-group .control input[type="email"],
+#payment_form_moip_magento2_boleto .fieldset .field.wirecard-input-group .control input[type="email"],
+#payment_form_moip_magento2_cc .fieldset .field.wirecard-input-group .control select,
+#payment_form_moip_magento2_cc_vault .fieldset .field.wirecard-input-group .control select,
+#payment_form_moip_magento2_boleto .fieldset .field.wirecard-input-group .control select {
+  height: unset;
+  width: 100%;
+  padding: 1rem 1rem;
+  line-height: 1;
+}
+#payment_form_moip_magento2_cc .fieldset .field.wirecard-input-group .control input::placeholder,
+#payment_form_moip_magento2_cc_vault .fieldset .field.wirecard-input-group .control input::placeholder,
+#payment_form_moip_magento2_boleto .fieldset .field.wirecard-input-group .control input::placeholder {
+  color: transparent;
+}
+#payment_form_moip_magento2_cc .fieldset .field.wirecard-input-group .control input::-webkit-input-placeholder,
+#payment_form_moip_magento2_cc_vault .fieldset .field.wirecard-input-group .control input::-webkit-input-placeholder,
+#payment_form_moip_magento2_boleto .fieldset .field.wirecard-input-group .control input::-webkit-input-placeholder {
+  color: transparent;
+}
+#payment_form_moip_magento2_cc .fieldset .field.wirecard-input-group .control input::-ms-input-placeholder,
+#payment_form_moip_magento2_cc_vault .fieldset .field.wirecard-input-group .control input::-ms-input-placeholder,
+#payment_form_moip_magento2_boleto .fieldset .field.wirecard-input-group .control input::-ms-input-placeholder {
+  color: transparent;
+}
+#payment_form_moip_magento2_cc .fieldset .field.wirecard-input-group .control input::-moz-placeholder,
+#payment_form_moip_magento2_cc_vault .fieldset .field.wirecard-input-group .control input::-moz-placeholder,
+#payment_form_moip_magento2_boleto .fieldset .field.wirecard-input-group .control input::-moz-placeholder {
+  color: transparent;
+}
+#payment_form_moip_magento2_cc .fieldset .field.wirecard-input-group .control .label,
+#payment_form_moip_magento2_cc_vault .fieldset .field.wirecard-input-group .control .label,
+#payment_form_moip_magento2_boleto .fieldset .field.wirecard-input-group .control .label {
+  padding: 1rem 1rem;
+  font-weight: normal;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  display: block;
+  margin-bottom: 0;
+  transition: all 0.1s ease-in-out;
+  width: 80%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+#payment_form_moip_magento2_cc .fieldset .field.wirecard-input-group .control._with-tooltip input,
+#payment_form_moip_magento2_cc_vault .fieldset .field.wirecard-input-group .control._with-tooltip input,
+#payment_form_moip_magento2_boleto .fieldset .field.wirecard-input-group .control._with-tooltip input {
+  width: 100%;
+}
+#payment_form_moip_magento2_cc .fieldset .field.wirecard-input-group .control._with-tooltip .field-tooltip,
+#payment_form_moip_magento2_cc_vault .fieldset .field.wirecard-input-group .control._with-tooltip .field-tooltip,
+#payment_form_moip_magento2_boleto .fieldset .field.wirecard-input-group .control._with-tooltip .field-tooltip {
+  top: 6px;
+  right: 5px;
+}
+#payment_form_moip_magento2_cc .fieldset .field.wirecard-input-group .control select:not(:checked),
+#payment_form_moip_magento2_cc_vault .fieldset .field.wirecard-input-group .control select:not(:checked),
+#payment_form_moip_magento2_boleto .fieldset .field.wirecard-input-group .control select:not(:checked),
+#payment_form_moip_magento2_cc .fieldset .field.wirecard-input-group .control input:not(:placeholder-shown),
+#payment_form_moip_magento2_cc_vault .fieldset .field.wirecard-input-group .control input:not(:placeholder-shown),
+#payment_form_moip_magento2_boleto .fieldset .field.wirecard-input-group .control input:not(:placeholder-shown) {
+  padding-top: calc(1.66666667rem) !important;
+  padding-bottom: calc(0.33333333rem) !important;
+}
+#payment_form_moip_magento2_cc .fieldset .field.wirecard-input-group .control select:not(:checked) ~ .label,
+#payment_form_moip_magento2_cc_vault .fieldset .field.wirecard-input-group .control select:not(:checked) ~ .label,
+#payment_form_moip_magento2_boleto .fieldset .field.wirecard-input-group .control select:not(:checked) ~ .label,
+#payment_form_moip_magento2_cc .fieldset .field.wirecard-input-group .control input:not(:placeholder-shown) ~ .label,
+#payment_form_moip_magento2_cc_vault .fieldset .field.wirecard-input-group .control input:not(:placeholder-shown) ~ .label,
+#payment_form_moip_magento2_boleto .fieldset .field.wirecard-input-group .control input:not(:placeholder-shown) ~ .label {
+  padding-top: calc(0.33333333rem) !important;
+  padding-bottom: calc(0.33333333rem) !important;
+  font-size: 10px;
+}
+#payment_form_moip_magento2_cc .fieldset .field.number,
+#payment_form_moip_magento2_cc_vault .fieldset .field.number,
+#payment_form_moip_magento2_boleto .fieldset .field.number {
+  width: 70%;
+  float: left;
+}
+#payment_form_moip_magento2_cc .fieldset .field.number .credit-card-types,
+#payment_form_moip_magento2_cc_vault .fieldset .field.number .credit-card-types,
+#payment_form_moip_magento2_boleto .fieldset .field.number .credit-card-types {
+  line-height: 4;
+}
+#payment_form_moip_magento2_cc .fieldset .field.number .credit-card-types .item._active img,
+#payment_form_moip_magento2_cc_vault .fieldset .field.number .credit-card-types .item._active img,
+#payment_form_moip_magento2_boleto .fieldset .field.number .credit-card-types .item._active img {
+  -webkit-filter: grayscale(0%);
+}
+#payment_form_moip_magento2_cc .fieldset .field.number .credit-card-types .item._inactive,
+#payment_form_moip_magento2_cc_vault .fieldset .field.number .credit-card-types .item._inactive,
+#payment_form_moip_magento2_boleto .fieldset .field.number .credit-card-types .item._inactive {
+  opacity: 0.4;
+}
+#payment_form_moip_magento2_cc .fieldset .field.number .credit-card-types .item img,
+#payment_form_moip_magento2_cc_vault .fieldset .field.number .credit-card-types .item img,
+#payment_form_moip_magento2_boleto .fieldset .field.number .credit-card-types .item img {
+  -webkit-filter: unset;
+  -webkit-transition: all 0.6s ease;
+}
+#payment_form_moip_magento2_cc .fieldset .field.cvv,
+#payment_form_moip_magento2_cc_vault .fieldset .field.cvv,
+#payment_form_moip_magento2_boleto .fieldset .field.cvv {
+  width: 30%;
+  float: right;
+  padding-left: 10px;
+}
+#payment_form_moip_magento2_cc .fieldset .field.date,
+#payment_form_moip_magento2_cc_vault .fieldset .field.date,
+#payment_form_moip_magento2_boleto .fieldset .field.date {
+  margin-bottom: 0;
+}
+#payment_form_moip_magento2_cc .fieldset .field.date .group-2,
+#payment_form_moip_magento2_cc_vault .fieldset .field.date .group-2,
+#payment_form_moip_magento2_boleto .fieldset .field.date .group-2 {
+  display: inline-flex;
+  width: 100%;
+}
+#payment_form_moip_magento2_cc .fieldset .field.date .group-2 .year,
+#payment_form_moip_magento2_cc_vault .fieldset .field.date .group-2 .year,
+#payment_form_moip_magento2_boleto .fieldset .field.date .group-2 .year {
+  padding-left: 10px;
+}
+#payment_form_moip_magento2_cc_vault .field-to-pay {
+  margin: 0 0;
+}
+.checkout-onepage-success .field .control._with-tooltip input {
+  margin-right: 0;
+  padding-right: 40px;
+  width: 100%;
+}
+.checkout-onepage-success .field .control._with-tooltip button {
+  margin-top: -1px;
+}
+.checkout-onepage-success .field.wirecard-input-group {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.checkout-payment-method .credit-card-types {
+  padding: 0;
+}
+.checkout-payment-method .credit-card-types .item {
+  display: inline-block;
+  list-style: none;
+  margin: 0 5px 0 0;
+  vertical-align: top;
+}
+.checkout-payment-method .credit-card-types .item._active {
+  font-weight: 700;
+}
+.checkout-payment-method .credit-card-types .item._active img {
+  -webkit-filter: grayscale(0%);
+}
+.checkout-payment-method .credit-card-types .item._inactive {
+  opacity: .4;
+}
+.checkout-payment-method .credit-card-types .item span {
+  display: inline-block;
+  padding-top: 6px;
+  vertical-align: top;
+}
+.checkout-payment-method .credit-card-types img {
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: all .6s ease;
+}
+
+
+#payment_form_moip_magento2_cc .field-to-pay._hidden, #payment_form_moip_magento2_cc_vault .field-to-pay._hidden, #payment_form_moip_magento2_boleto .field-to-pay._hidden, #payment_form_moip_magento2_cc .fieldset .field.number .credit-card-types .item._hidden, #payment_form_moip_magento2_cc_vault .fieldset .field.number .credit-card-types .item._hidden, #payment_form_moip_magento2_boleto .fieldset .field.number .credit-card-types .item._hidden, .checkout-index-index .page-title-wrapper, .abs-full-checkout-discount-code .form-discount .payment-option-inner .field .label, .opc-wrapper .form-discount .field .label, .bundle-options-container .block-bundle-summary .product-image-container, .bundle-options-container .block-bundle-summary .product.name, .bundle-options-container .block-bundle-summary .stock, .product-item-actions .actions-secondary > .action span, .special-price .price-label, .table-comparison .cell.label.remove span, .table-comparison .cell.label.product span, .block.related .field.choice .label, .cart.table-wrapper .col.qty .label, .minicart-wrapper .action.showcart .text, .minicart-wrapper .action.showcart .counter-label, .checkout-index-index .page-title-wrapper, .checkout-payment-method .field-select-billing > .label, .checkout-payment-method .payments .legend, .checkout-payment-method .ccard .legend, .fieldset .fullname > .label, .field.street .field .label, .block-balance .balance-price-label, .page-product-downloadable .product-options-wrapper .fieldset .legend.links-title, .page-product-giftcard .fieldset.giftcard > .legend, .opc-wrapper .form-giftcard-account .field .label, .form-add-invitations .fields .label, .filter-options-content .filter-count-label, .table-comparison .wishlist.split.button > .action.split span, .product-items .wishlist.split.button > .action.split span, .page-multiple-wishlist .page-title-wrapper .page-title, .block-wishlist-search-form .form-wishlist-search .fieldset > .legend, .multicheckout .table-wrapper .col .label, .multicheckout .block .methods-shipping .item-content .fieldset > .legend, .block.newsletter .label, .review-date .review-details-label, .customer-review .product-details .rating-average-label, .block-reorder .product-item .label, .action.skip:not(:focus), .page-header .switcher .label, .page-footer .switcher .label, .products-grid.wishlist .product-item .comment-box .label, #checkout .opc-block-summary .payment-option-content .form-discount .payment-option-inner .field .label {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+#payment_form_moip_magento2_cc .fieldset .field.wirecard-input-group .control._with-tooltip .field-tooltip, #payment_form_moip_magento2_cc_vault .fieldset .field.wirecard-input-group .control._with-tooltip .field-tooltip, #payment_form_moip_magento2_boleto .fieldset .field.wirecard-input-group .control._with-tooltip .field-tooltip {
+    top: 6px;
+    right: 5px;
+}
+.field-tooltip .field-tooltip-action > span {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}

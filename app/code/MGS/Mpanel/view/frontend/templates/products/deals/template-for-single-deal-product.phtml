@@ -1,0 +1,102 @@
+<?php $_productCollection = $this->getLoadSigleDealProduct() ?>
+<?php // ($_productCollection->getSpecialPrice() && $_productCollection->getSpecialToDate() && $_productCollection->getSpecialFromDate()) ? 1:0; ?>
+
+<?php $themeHelper = $this->helper('MGS\Mpanel\Helper\Data'); ?>
+<div class="content-block deal-products-block deal-products-list-block">
+	<?php if($this->hasData('mgs_panel_title') || $this->hasData('mgs_panel_note')): ?>
+		<div class="content-heading text-left">
+			<?php if($this->hasData('mgs_panel_title')): ?>
+				<h2 class="title"><?php echo $themeHelper->decodeHtmlTag($this->getData('mgs_panel_title')) ?></h2>
+			<?php endif ?>
+			<?php if($this->hasData('mgs_panel_note')): ?>
+				<div class="block-note"><?php echo $themeHelper->decodeHtmlTag($this->getData('mgs_panel_note')) ?></div>
+			<?php endif ?>
+		</div>
+	<?php endif ?>
+	
+			<?php if ($_productCollection->getIsSalable() && $_productCollection->getSpecialPrice() && $_productCollection->getSpecialToDate() && $_productCollection->getSpecialFromDate()): ?>
+			<?php 
+				$blockId = rand() . time();
+				$_helper = $this->helper('Magento\Catalog\Helper\Output');
+				$useSlider = $this->getUseSlider();
+				$perRow = $this->getPerrow();
+				$image = 'category_page_grid';
+				$themeSettings = $themeHelper->getThemeSettings();
+				$templateType = \Magento\Catalog\Block\Product\ReviewRendererInterface::SHORT_VIEW;
+				$col = $themeHelper->convertPerRowtoCol($perRow);
+				$autoPlay = $this->getAutoplay() ? 'true' : 'false';
+				$stopAuto = $this->getStopAuto() ? 'true' : 'false';
+				$nav = $this->getNavigation() ? 'true' : 'false';
+				$dot = $this->getPagination() ? 'true' : 'false';
+			?>
+	
+				<div class="mgs-single-deal-products single-deal-product">
+					<div class="block-content">
+						<div class="single-deal-product-item">
+							<div class="single-deal-product-image">
+								<?php
+									$_imagehelper = $this->helper('Magento\Catalog\Helper\Image');
+									$size = $themeHelper->getImageSize($this->getRatio());
+									$productImage = $_imagehelper->init($_productCollection, $image)->resize($size['width'], $size['height'])->getUrl();
+								?>
+								<?php // Product Image ?>
+								<a href="<?php /* @escapeNotVerified */ echo $_productCollection->getProductUrl() ?>" class="product photo product-item-photo" tabindex="-1">
+								<img src="<?php echo $productImage; ?>"  class="img-responsive "/>
+								</a>
+							</div>
+							<div class="single-deal-product-details">
+								<?php echo $sigleDealProduct = $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('single-deal-product')->toHtml(); ?>
+								<h5 class="product name product-item-name">
+									<a class="product-item-link"
+									href="<?php /* @escapeNotVerified */ echo $_productCollection->getProductUrl() ?>">
+										<?php /* @escapeNotVerified */ echo $_helper->productAttribute($_productCollection, $_productCollection->getName(), 'name'); ?>
+									</a>
+								</h5>
+								<?php // echo $block->getReviewsSummaryHtml($_productCollection, $templateType, true); ?>
+								<?php /* @escapeNotVerified */ echo $block->getProductPrice($_productCollection) ?>
+								<?php echo $_helper->productAttribute($_productCollection, $_productCollection->getShortDescription(), 'short_description') ?>
+								<?php echo $this->getLayout()->createBlock('MGS\Mpanel\Block\Products\Deals')->setProduct($_productCollection)->setTemplate('MGS_Mpanel::products/deals/item.phtml')->toHtml() ?>
+								<?php echo $block->getProductDetailsHtml($_productCollection); ?>
+								<?php echo $this->getLayout()->createBlock('Magento\Swatches\Block\Product\Renderer\Listing\Configurable')->setProduct($_productCollection)->setTemplate('Magento_Swatches::product/listing/renderer.phtml')->toHtml() ?>
+
+								<div class="product-item-inner">
+									<div class="product actions product-item-actions">
+										<div class="actions-primary">
+											<?php if ($_productCollection->isSaleable()): ?>
+												<?php $postParams = $block->getAddToCartPostParams($_productCollection); ?>
+												<form data-role="tocart-form" action="<?php /* @escapeNotVerified */ echo $postParams['action']; ?>" method="post">
+													<input type="hidden" name="product" value="<?php /* @escapeNotVerified */ echo $postParams['data']['product']; ?>">
+													<input type="hidden" name="uenc" value="<?php /* @escapeNotVerified */ echo $postParams['data']['uenc']; ?>">
+													<input name="form_key" type="hidden" value="<?php echo $this->getFormKey() ?>" />
+													<button class="action tocart btn btn-primary" type="submit" title="<?php /* @escapeNotVerified */ echo __('Add to Cart') ?>">
+														<span><?php /* @escapeNotVerified */ echo __('Add to Cart') ?></span>
+													</button>
+												</form>
+											<?php else: ?>
+												<?php if ($_productCollection->getIsSalable()): ?>
+													<div class="stock available"><span><?php /* @escapeNotVerified */ echo __('In stock') ?></span></div>
+												<?php else: ?>
+													<div class="stock unavailable"><span><?php /* @escapeNotVerified */ echo __('Out of stock') ?></span></div>
+												<?php endif; ?>
+											<?php endif; ?>
+										</div>
+									</div>
+								</div>
+							</div>
+					</div>	
+			</div>
+		</div>
+		
+	<?php else: ?>
+		<div role="alert" class="alert alert-warning"><?php echo __('There are no deals matching the selection.') ?></div>
+	<?php endif ?>
+</div>
+
+
+
+
+
+
+
+
+

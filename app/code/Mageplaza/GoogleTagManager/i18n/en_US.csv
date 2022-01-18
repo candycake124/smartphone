@@ -1,0 +1,46 @@
+"Not a valid URL.","Not a valid URL."
+ID,ID
+SKU,SKU
+Guide,Guide
+"How to Configure Adwords Conversion Tracking","How to Configure Adwords Conversion Tracking"
+"Google Tag Manager","Google Tag Manager"
+General,General
+Enable,Enable
+"Select <b>Yes</b> to enable this module.","Select <b>Yes</b> to enable this module."
+"Select <b>Yes</b> to enable Google Tag Manager.","Select <b>Yes</b> to enable Google Tag Manager."
+"ID Variable Base On","ID Variable Base On"
+"Select to specify that ID variable of product is replaced for Product ID or Product SKU","Select to specify that ID variable of product is replaced for Product ID or Product SKU"
+"Google Tag ID","Google Tag ID"
+"To get Google Tag ID, register <a href=""https://tagmanager.google.com"" target='_blank'>here</a>. E.g: GTM-XXXXXX","To get Google Tag ID, register <a href=""https://tagmanager.google.com"" target='_blank'>here</a>. E.g: GTM-XXXXXX"
+"Google Analytics eCommerce","Google Analytics eCommerce"
+"Select <b>Yes</b> to enable Google Analytics eCommerce.","Select <b>Yes</b> to enable Google Analytics eCommerce."
+"Google Analytics Tracking ID","Google Analytics Tracking ID"
+"To get Google Analytics Tracking ID, register <a href=""https://analytics.google.com/analytics/web/"" target='_blank'>here</a>. E.g: UA-12345-6789","To get Google Analytics Tracking ID, register <a href=""https://analytics.google.com/analytics/web/"" target='_blank'>here</a>. E.g: UA-12345-6789"
+"Second Tracking ID","Second Tracking ID"
+"Add another property ID for the store site. Leave empty if you do not want to use.","Add another property ID for the store site. Leave empty if you do not want to use."
+"Enable Enhanced Link Attribution","Enable Enhanced Link Attribution"
+"Enhanced link attribution improves click reports by automatically differentiating between multiple link clicks that have the same URL on a given page.","Enhanced link attribution improves click reports by automatically differentiating between multiple link clicks that have the same URL on a given page."
+"Enable Linker","Enable Linker"
+"If Yes, Google Analytics allows you to merge sessions from two related sites (such as an ecommerce site and a separate shopping cart site) as a single session. <br><a href='https://support.google.com/analytics/answer/1033876' target='_blank'>More Details</a>","If Yes, Google Analytics allows you to merge sessions from two related sites (such as an ecommerce site and a separate shopping cart site) as a single session. <br><a href='https://support.google.com/analytics/answer/1033876' target='_blank'>More Details</a>"
+"Linker Domain(s)","Linker Domain(s)"
+"Seperated by comma(,).","Seperated by comma(,)."
+"Enable Display Ads (Remarketing)","Enable Display Ads (Remarketing)"
+"Google Analytics advertising features (including Remarketing Lists for Search Ads) can be enabled in Google Analytics from Property Settings > Data Collection.<br><a href='https://support.google.com/analytics/answer/2444872' target='_blank'>More Details</a>","Google Analytics advertising features (including Remarketing Lists for Search Ads) can be enabled in Google Analytics from Property Settings > Data Collection.<br><a href='https://support.google.com/analytics/answer/2444872' target='_blank'>More Details</a>"
+"Enable IP Anonymization","Enable IP Anonymization"
+"If Yes, Analytics anonymizes the address as soon as technically feasible at the earliest possible stage of the collection network.<br><a href='https://support.google.com/analytics/answer/2763052' target='_blank'>More Details</a>","If Yes, Analytics anonymizes the address as soon as technically feasible at the earliest possible stage of the collection network.<br><a href='https://support.google.com/analytics/answer/2763052' target='_blank'>More Details</a>"
+"Facebook Pixel","Facebook Pixel"
+Enabled,Enabled
+"Select <b>Yes</b> to enable Facebook Pixel.","Select <b>Yes</b> to enable Facebook Pixel."
+"Facebook Pixel ID","Facebook Pixel ID"
+"To get Facebook Pixel ID, register <a href=""https://business.facebook.com/events_manager"" target='_blank'>here</a>. E.g: 195027827612345","To get Facebook Pixel ID, register <a href=""https://business.facebook.com/events_manager"" target='_blank'>here</a>. E.g: 195027827612345"
+"Google Adwords Conversion Tracking","Google Adwords Conversion Tracking"
+Guid,Guid
+"Deduct Tax From Transaction","Deduct Tax From Transaction"
+"Enable Brand","Enable Brand"
+"Brand Attribute","Brand Attribute"
+"Enable Variant","Enable Variant"
+"Deduct Shipping From Transaction","Deduct Shipping From Transaction"
+"Tax Deduction On Shipping","Tax Deduction On Shipping"
+"Ignore Orders with value 0","Ignore Orders with value 0"
+"Google Analytics 4","Google Analytics 4"
+

@@ -1,0 +1,56 @@
+<?php
+/**
+ * Mageplaza
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Mageplaza.com license that is
+ * available through the world-wide-web at this URL:
+ * https://www.mageplaza.com/LICENSE.txt
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade this extension to newer
+ * version in the future.
+ *
+ * @category    Mageplaza
+ * @package     Mageplaza_GoogleTagManager
+ * @copyright   Copyright (c) Mageplaza (https://www.mageplaza.com/)
+ * @license     https://www.mageplaza.com/LICENSE.txt
+ */
+
+/** @var \Mageplaza\GoogleTagManager\Block\TagManager $block */
+?>
+<!--Google Tag Manager: dataLayer - Added by Mageplaza-->
+<?php
+if (!empty($block->getEventCartData())) {
+    $data = $block->getEventCartData();
+    if (!empty($data['add']['gtm'])) {
+        ?>
+        <script>dataLayer.push(<?= /** @noEscape */ $data['add']['gtm'] ?>);</script>
+        <?php
+    }
+    if (!empty($data['add']['pixel'])) {
+        ?>
+        <script>fbq('track', 'AddToCart', <?= /** @noEscape */  $data['add']['pixel'] ?>);</script>
+        <?php
+    }
+    if (!empty($data['add']['ga'])) {
+        ?>
+        <script>gtag('event', 'add_to_cart', <?= /** @noEscape */  $data['add']['ga'] ?>);</script>
+        <?php
+    }
+    $block->removeAddToCartData();
+    if (!empty($data['remove']['gtm'])) {
+        ?>
+        <script>dataLayer.push(<?= /** @noEscape */  $data['remove']['gtm'] ?>);</script>
+        <?php
+    }
+    if (!empty($data['remove']['ga'])) {
+        ?>
+        <script>gtag('event', 'remove_from_cart', <?= /** @noEscape */  $data['remove']['ga'] ?>);</script>
+        <?php
+    }
+    $block->removeRemoveFromCartData();
+}
+?>

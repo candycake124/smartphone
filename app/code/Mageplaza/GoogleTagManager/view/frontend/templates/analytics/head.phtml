@@ -1,0 +1,48 @@
+<?php
+/**
+ * Mageplaza
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Mageplaza.com license that is
+ * available through the world-wide-web at this URL:
+ * https://www.mageplaza.com/LICENSE.txt
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade this extension to newer
+ * version in the future.
+ *
+ * @category    Mageplaza
+ * @package     Mageplaza_GoogleTagManager
+ * @copyright   Copyright (c) Mageplaza (https://www.mageplaza.com/)
+ * @license     https://www.mageplaza.com/LICENSE.txt
+ */
+
+// @codingStandardsIgnoreFile
+?>
+
+<?php if ($block->canShowAnalytics()) : ?>
+    <!-- Google Analytics Added by Mageplaza -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=<?= $block->escapeHtmlAttr($block->getTagId()) ?>"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('set', {'currency': '<?= /** @noEscape */ $block->getCurrency() ?>'});
+        gtag('set', {'link_attribution': <?= /** @noEscape */ $block->isLinkAttribution() ?>});
+        gtag('set', {'anonymize_ip': <?= /** @noEscape */ $block->isAnonymizeIp() ?>});
+        gtag('set', {'allow_ad_personalization_signals': <?= /** @noEscape */ $block->isDisplayFeatures() ?>});
+        <?php if ($block->isLinker()) :?>
+        gtag('set', {'linker': {'domains':<?= $block->escapeHtml($block->getLinkerDomains()) ?>}});
+        <?php endif; ?>
+        gtag('config', '<?= $block->escapeHtmlAttr($block->getTagId()) ?>');
+        <?php if (!empty($block->getSubTagId())) :?>
+        //Second tag id
+        gtag('config', '<?= $block->escapeHtmlAttr($block->getSubTagId()) ?>');
+        <?php endif; ?>
+    </script>
+    <!-- End Google Analytics -->
+<?php endif; ?>

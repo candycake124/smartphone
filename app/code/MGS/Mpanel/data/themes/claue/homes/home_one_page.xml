@@ -1,0 +1,644 @@
+<home>
+	<section>
+		<name><![CDATA[block285]]></name>
+		<theme_name><![CDATA[]]></theme_name>
+		<block_cols><![CDATA[12]]></block_cols>
+		<tablet_cols><![CDATA[["12"]]]></tablet_cols>
+		<mobile_cols><![CDATA[["12"]]]></mobile_cols>
+		<block_class><![CDATA[[""]]]></block_class>
+		<class><![CDATA[onepage-slider]]></class>
+		<background><![CDATA[]]></background>
+		<background_image><![CDATA[]]></background_image>
+		<background_repeat><![CDATA[0]]></background_repeat>
+		<background_cover><![CDATA[0]]></background_cover>
+		<parallax><![CDATA[0]]></parallax>
+		<fullwidth><![CDATA[1]]></fullwidth>
+		<padding_top><![CDATA[]]></padding_top>
+		<padding_bottom><![CDATA[]]></padding_bottom>
+		<block_position><![CDATA[0]]></block_position>
+	</section>
+	<section>
+		<name><![CDATA[block286]]></name>
+		<theme_name><![CDATA[]]></theme_name>
+		<block_cols><![CDATA[6,6]]></block_cols>
+		<tablet_cols><![CDATA[["6","6"]]]></tablet_cols>
+		<mobile_cols><![CDATA[["12","12"]]]></mobile_cols>
+		<block_class><![CDATA[["",""]]]></block_class>
+		<class><![CDATA[onestep-product]]></class>
+		<background><![CDATA[]]></background>
+		<background_image><![CDATA[]]></background_image>
+		<background_repeat><![CDATA[0]]></background_repeat>
+		<background_cover><![CDATA[0]]></background_cover>
+		<parallax><![CDATA[0]]></parallax>
+		<fullwidth><![CDATA[0]]></fullwidth>
+		<padding_top><![CDATA[]]></padding_top>
+		<padding_bottom><![CDATA[]]></padding_bottom>
+		<block_position><![CDATA[1]]></block_position>
+	</section>
+	<section>
+		<name><![CDATA[block287]]></name>
+		<theme_name><![CDATA[]]></theme_name>
+		<block_cols><![CDATA[12]]></block_cols>
+		<tablet_cols><![CDATA[]]></tablet_cols>
+		<mobile_cols><![CDATA[]]></mobile_cols>
+		<block_class><![CDATA[]]></block_class>
+		<class><![CDATA[]]></class>
+		<background><![CDATA[]]></background>
+		<background_image><![CDATA[]]></background_image>
+		<background_repeat><![CDATA[]]></background_repeat>
+		<background_cover><![CDATA[]]></background_cover>
+		<parallax><![CDATA[]]></parallax>
+		<fullwidth><![CDATA[]]></fullwidth>
+		<padding_top><![CDATA[]]></padding_top>
+		<padding_bottom><![CDATA[]]></padding_bottom>
+		<block_position><![CDATA[2]]></block_position>
+	</section>
+	<section>
+		<name><![CDATA[block288]]></name>
+		<theme_name><![CDATA[]]></theme_name>
+		<block_cols><![CDATA[4,4,4]]></block_cols>
+		<tablet_cols><![CDATA[["4","4","4"]]]></tablet_cols>
+		<mobile_cols><![CDATA[["12","12","12"]]]></mobile_cols>
+		<block_class><![CDATA[["","",""]]]></block_class>
+		<class><![CDATA[onepage-claue-different-content]]></class>
+		<background><![CDATA[]]></background>
+		<background_image><![CDATA[]]></background_image>
+		<background_repeat><![CDATA[0]]></background_repeat>
+		<background_cover><![CDATA[0]]></background_cover>
+		<parallax><![CDATA[0]]></parallax>
+		<fullwidth><![CDATA[0]]></fullwidth>
+		<padding_top><![CDATA[]]></padding_top>
+		<padding_bottom><![CDATA[]]></padding_bottom>
+		<block_position><![CDATA[3]]></block_position>
+	</section>
+	<section>
+		<name><![CDATA[block289]]></name>
+		<theme_name><![CDATA[]]></theme_name>
+		<block_cols><![CDATA[6,6]]></block_cols>
+		<tablet_cols><![CDATA[["6","6"]]]></tablet_cols>
+		<mobile_cols><![CDATA[["12","12"]]]></mobile_cols>
+		<block_class><![CDATA[["",""]]]></block_class>
+		<class><![CDATA[onepage-collection-first]]></class>
+		<background><![CDATA[]]></background>
+		<background_image><![CDATA[]]></background_image>
+		<background_repeat><![CDATA[0]]></background_repeat>
+		<background_cover><![CDATA[0]]></background_cover>
+		<parallax><![CDATA[0]]></parallax>
+		<fullwidth><![CDATA[1]]></fullwidth>
+		<padding_top><![CDATA[]]></padding_top>
+		<padding_bottom><![CDATA[]]></padding_bottom>
+		<block_position><![CDATA[4]]></block_position>
+	</section>
+	<section>
+		<name><![CDATA[block290]]></name>
+		<theme_name><![CDATA[]]></theme_name>
+		<block_cols><![CDATA[6,6]]></block_cols>
+		<tablet_cols><![CDATA[["6","6"]]]></tablet_cols>
+		<mobile_cols><![CDATA[["12","12"]]]></mobile_cols>
+		<block_class><![CDATA[["",""]]]></block_class>
+		<class><![CDATA[onepage-collection-second]]></class>
+		<background><![CDATA[]]></background>
+		<background_image><![CDATA[]]></background_image>
+		<background_repeat><![CDATA[0]]></background_repeat>
+		<background_cover><![CDATA[0]]></background_cover>
+		<parallax><![CDATA[0]]></parallax>
+		<fullwidth><![CDATA[1]]></fullwidth>
+		<padding_top><![CDATA[]]></padding_top>
+		<padding_bottom><![CDATA[]]></padding_bottom>
+		<block_position><![CDATA[5]]></block_position>
+	</section>
+	<section>
+		<name><![CDATA[block291]]></name>
+		<theme_name><![CDATA[]]></theme_name>
+		<block_cols><![CDATA[12]]></block_cols>
+		<tablet_cols><![CDATA[]]></tablet_cols>
+		<mobile_cols><![CDATA[]]></mobile_cols>
+		<block_class><![CDATA[]]></block_class>
+		<class><![CDATA[]]></class>
+		<background><![CDATA[]]></background>
+		<background_image><![CDATA[]]></background_image>
+		<background_repeat><![CDATA[]]></background_repeat>
+		<background_cover><![CDATA[]]></background_cover>
+		<parallax><![CDATA[]]></parallax>
+		<fullwidth><![CDATA[]]></fullwidth>
+		<padding_top><![CDATA[]]></padding_top>
+		<padding_bottom><![CDATA[]]></padding_bottom>
+		<block_position><![CDATA[7]]></block_position>
+	</section>
+	<section>
+		<name><![CDATA[block292]]></name>
+		<theme_name><![CDATA[]]></theme_name>
+		<block_cols><![CDATA[3,3,3,3]]></block_cols>
+		<tablet_cols><![CDATA[["6","6","6","6"]]]></tablet_cols>
+		<mobile_cols><![CDATA[["12","12","12","12"]]]></mobile_cols>
+		<block_class><![CDATA[["","","",""]]]></block_class>
+		<class><![CDATA[onepage-services]]></class>
+		<background><![CDATA[]]></background>
+		<background_image><![CDATA[]]></background_image>
+		<background_repeat><![CDATA[0]]></background_repeat>
+		<background_cover><![CDATA[0]]></background_cover>
+		<parallax><![CDATA[0]]></parallax>
+		<fullwidth><![CDATA[0]]></fullwidth>
+		<padding_top><![CDATA[]]></padding_top>
+		<padding_bottom><![CDATA[]]></padding_bottom>
+		<block_position><![CDATA[11]]></block_position>
+	</section>
+	<section>
+		<name><![CDATA[block293]]></name>
+		<theme_name><![CDATA[]]></theme_name>
+		<block_cols><![CDATA[12]]></block_cols>
+		<tablet_cols><![CDATA[["12"]]]></tablet_cols>
+		<mobile_cols><![CDATA[["12"]]]></mobile_cols>
+		<block_class><![CDATA[[""]]]></block_class>
+		<class><![CDATA[onepage-questions]]></class>
+		<background><![CDATA[]]></background>
+		<background_image><![CDATA[]]></background_image>
+		<background_repeat><![CDATA[0]]></background_repeat>
+		<background_cover><![CDATA[0]]></background_cover>
+		<parallax><![CDATA[0]]></parallax>
+		<fullwidth><![CDATA[0]]></fullwidth>
+		<padding_top><![CDATA[]]></padding_top>
+		<padding_bottom><![CDATA[]]></padding_bottom>
+		<block_position><![CDATA[9]]></block_position>
+	</section>
+	<section>
+		<name><![CDATA[block294]]></name>
+		<theme_name><![CDATA[]]></theme_name>
+		<block_cols><![CDATA[12]]></block_cols>
+		<tablet_cols><![CDATA[]]></tablet_cols>
+		<mobile_cols><![CDATA[]]></mobile_cols>
+		<block_class><![CDATA[]]></block_class>
+		<class><![CDATA[]]></class>
+		<background><![CDATA[]]></background>
+		<background_image><![CDATA[]]></background_image>
+		<background_repeat><![CDATA[]]></background_repeat>
+		<background_cover><![CDATA[]]></background_cover>
+		<parallax><![CDATA[]]></parallax>
+		<fullwidth><![CDATA[]]></fullwidth>
+		<padding_top><![CDATA[]]></padding_top>
+		<padding_bottom><![CDATA[]]></padding_bottom>
+		<block_position><![CDATA[10]]></block_position>
+	</section>
+	<section>
+		<name><![CDATA[block296]]></name>
+		<theme_name><![CDATA[]]></theme_name>
+		<block_cols><![CDATA[4,8]]></block_cols>
+		<tablet_cols><![CDATA[["4","8"]]]></tablet_cols>
+		<mobile_cols><![CDATA[["12","12"]]]></mobile_cols>
+		<block_class><![CDATA[["",""]]]></block_class>
+		<class><![CDATA[onepage-happy-clients]]></class>
+		<background><![CDATA[#F5F5F5;]]></background>
+		<background_image><![CDATA[]]></background_image>
+		<background_repeat><![CDATA[0]]></background_repeat>
+		<background_cover><![CDATA[0]]></background_cover>
+		<parallax><![CDATA[0]]></parallax>
+		<fullwidth><![CDATA[0]]></fullwidth>
+		<padding_top><![CDATA[]]></padding_top>
+		<padding_bottom><![CDATA[]]></padding_bottom>
+		<block_position><![CDATA[8]]></block_position>
+	</section>
+	<section>
+		<name><![CDATA[block297]]></name>
+		<theme_name><![CDATA[]]></theme_name>
+		<block_cols><![CDATA[12]]></block_cols>
+		<tablet_cols><![CDATA[["12"]]]></tablet_cols>
+		<mobile_cols><![CDATA[["12"]]]></mobile_cols>
+		<block_class><![CDATA[[""]]]></block_class>
+		<class><![CDATA[onepage-video]]></class>
+		<background><![CDATA[]]></background>
+		<background_image><![CDATA[/i/m/image_30.png]]></background_image>
+		<background_repeat><![CDATA[0]]></background_repeat>
+		<background_cover><![CDATA[0]]></background_cover>
+		<parallax><![CDATA[0]]></parallax>
+		<fullwidth><![CDATA[1]]></fullwidth>
+		<padding_top><![CDATA[]]></padding_top>
+		<padding_bottom><![CDATA[]]></padding_bottom>
+		<block_position><![CDATA[6]]></block_position>
+	</section>
+	<block>
+		<block_name><![CDATA[block285-0]]></block_name>
+		<type><![CDATA[owl_banner]]></type>
+		<position><![CDATA[1]]></position>
+		<setting><![CDATA[{"block_link":"","animation":"","animation_delay":"","removeimg":["","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""],"html_slider":"<div data-text-position=\"middle_left\" data-text-animate=\"slideInLeft\" class=\"item slideInLeft\"><a class=\"item-image\" href=\"\" target=\"_blank\" style=\"background-image:url(https:\/\/74.arrowhitech.net\/gpm\/demo_claue241\/pub\/media\/wysiwyg\/slider\/BG-export.png)\"><img class=\"img-responsive\" src=\"https:\/\/74.arrowhitech.net\/gpm\/demo_claue241\/pub\/media\/wysiwyg\/slider\/BG-export.png\" alt=\"\"><\/a><div class=\"container slide-text middle_left\"><div class=\"inner-text\"><div class=\"onepage-slider-banner\">\r\n<p class=\"text-content-first white-text\">Stay Home<\/p>\r\n<p class=\"text-content-second white-text\">Stay Helth<\/p>\r\n<p class=\"text-content-third white-text\">Experience the world's most effective, adaptable workout system.<\/p>\r\n<a href=\"#\" class=\"btn btn-default white-text\">Shop now<\/a>\r\n<\/div><\/div><\/div><\/div>","offset":"","setheight":"","effect":"1","speed":"","navtemple":"1","fullscreen":0,"autoplay":0,"stop_auto":0,"navigation":0,"pagination":0,"loop":0,"fullheight":0}]]></setting>
+		<col><![CDATA[12]]></col>
+		<class><![CDATA[]]></class>
+		<block_content><![CDATA[{{block class="MGS\Mpanel\Block\Widget\OwlCarousel" fullscreen="0" autoplay="0" stop_auto="0" navigation="0" offset="" fullheight="0" pagination="0" loop="0" speed="" html_slider="&lt;div data-text-position=&quot;middle_left&quot; data-text-animate=&quot;slideInLeft&quot; class=&quot;item slideInLeft&quot;&gt;&lt;a class=&quot;item-image&quot; href=&quot;&quot; target=&quot;_blank&quot; style=&quot;background-image:url(pub/media/wysiwyg/slider/BG-export.png)&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;pub/media/wysiwyg/slider/BG-export.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;div class=&quot;container slide-text middle_left&quot;&gt;&lt;div class=&quot;inner-text&quot;&gt;&lt;div class=&quot;onepage-slider-banner&quot;&gt;
+&lt;p class=&quot;text-content-first white-text&quot;&gt;Stay Home&lt;/p&gt;
+&lt;p class=&quot;text-content-second white-text&quot;&gt;Stay Helth&lt;/p&gt;
+&lt;p class=&quot;text-content-third white-text&quot;&gt;Experience the world's most effective, adaptable workout system.&lt;/p&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn-default white-text&quot;&gt;Shop now&lt;/a&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" navtemple="1" effect="1" template="widget/owl_slider.phtml"}}]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block287-0]]></block_name>
+		<type><![CDATA[static]]></type>
+		<position><![CDATA[1]]></position>
+		<setting><![CDATA[{"animation":"","animation_delay":""}]]></setting>
+		<col><![CDATA[12]]></col>
+		<class><![CDATA[onepage-claue-different]]></class>
+		<block_content><![CDATA[<p>How is CLAUE Different?</p>]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block288-0]]></block_name>
+		<type><![CDATA[static]]></type>
+		<position><![CDATA[1]]></position>
+		<setting><![CDATA[{"animation":"","animation_delay":""}]]></setting>
+		<col><![CDATA[12]]></col>
+		<class><![CDATA[]]></class>
+		<block_content><![CDATA[<div class="onepage-claue-different-content">
+<img src="{{media url="wysiwyg/panel/Frame.png"}}" alt="Frame.png"/>
+<p>Fitness On Your Terms</p>
+<p>No complicated machines. No clutter. CLAUE is a highly effective and adaptable solution for getting a full-body workout wherever, whenever you need it.</p>
+</div>]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block288-1]]></block_name>
+		<type><![CDATA[static]]></type>
+		<position><![CDATA[1]]></position>
+		<setting><![CDATA[{"animation":"","animation_delay":""}]]></setting>
+		<col><![CDATA[12]]></col>
+		<class><![CDATA[onepage-claue-different-content]]></class>
+		<block_content><![CDATA[<div class="onepage-claue-different-content">
+<img src="{{media url="wysiwyg/panel/Group.png"}}" alt="Group.png" />
+<p>Workouts that Grow With You</p>
+<p>Whether you’re looking to shed a few pounds or are training for your next triathlon, CLAUE systems are designed for results at every fitness level.</p>
+</div>]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block288-2]]></block_name>
+		<type><![CDATA[static]]></type>
+		<position><![CDATA[1]]></position>
+		<setting><![CDATA[{"animation":"","animation_delay":""}]]></setting>
+		<col><![CDATA[12]]></col>
+		<class><![CDATA[onepage-claue-different-content]]></class>
+		<block_content><![CDATA[<div class="onepage-claue-different-content">
+<img src="{{media url="wysiwyg/panel/Frame_1_.png"}}" alt="Frame_1_.png"/>
+<p>Designed by Professionals</p>
+<p>We collaborated with a team of doctors of physical therapy to create the world’s most compact, ergonomic, and easy-to-use fitness system..</p>
+</div>]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block289-0]]></block_name>
+		<type><![CDATA[promo_banner]]></type>
+		<position><![CDATA[1]]></position>
+		<setting><![CDATA[{"animation":"","animation_delay":"","text_colour":"","link_colour":"","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","banner_id":"perfect-foe-any-fitness-level"}]]></setting>
+		<col><![CDATA[12]]></col>
+		<class><![CDATA[]]></class>
+		<block_content><![CDATA[{{widget type="MGS\Promobanners\Block\Widget\Banner" banner_id="perfect-foe-any-fitness-level" template="banner.phtml"}}]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block289-1]]></block_name>
+		<type><![CDATA[promo_banner]]></type>
+		<position><![CDATA[1]]></position>
+		<setting><![CDATA[{"animation":"","animation_delay":"","text_colour":"","link_colour":"","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","banner_id":"small-space"}]]></setting>
+		<col><![CDATA[12]]></col>
+		<class><![CDATA[]]></class>
+		<block_content><![CDATA[{{widget type="MGS\Promobanners\Block\Widget\Banner" banner_id="small-space" template="banner.phtml"}}]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block290-0]]></block_name>
+		<type><![CDATA[promo_banner]]></type>
+		<position><![CDATA[1]]></position>
+		<setting><![CDATA[{"animation":"","animation_delay":"","text_colour":"","link_colour":"","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","banner_id":"tone-up"}]]></setting>
+		<col><![CDATA[12]]></col>
+		<class><![CDATA[]]></class>
+		<block_content><![CDATA[{{widget type="MGS\Promobanners\Block\Widget\Banner" banner_id="tone-up" template="banner.phtml"}}]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block290-1]]></block_name>
+		<type><![CDATA[promo_banner]]></type>
+		<position><![CDATA[1]]></position>
+		<setting><![CDATA[{"animation":"","animation_delay":"","text_colour":"","link_colour":"","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","banner_id":"lightweight"}]]></setting>
+		<col><![CDATA[12]]></col>
+		<class><![CDATA[]]></class>
+		<block_content><![CDATA[{{widget type="MGS\Promobanners\Block\Widget\Banner" banner_id="lightweight" template="banner.phtml"}}]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block291-0]]></block_name>
+		<type><![CDATA[latest_posts]]></type>
+		<position><![CDATA[1]]></position>
+		<setting><![CDATA[{"title":"A Full Gym Setup in Seconds","additional_content":"","animation":"","animation_delay":"","post_category":["9"],"number_of_posts":"3","items":"3","template":"default.phtml","show_thumbnail":"1","show_short_content":"1","limit_characters_short_content":"1000","number_row":"1","text_colour":"","link_colour":"","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","view_as":0,"autoplay":0,"stop_auto":0,"navigation":0,"pagination":0}]]></setting>
+		<col><![CDATA[12]]></col>
+		<class><![CDATA[onepage-blog]]></class>
+		<block_content><![CDATA[{{widget type="MGS\Blog\Block\Widget\Latest" mgs_panel_title="A Full Gym Setup in Seconds" post_category="9" number_of_posts="3" items="3" show_thumbnail="1" mgs_panel_note="" template="widget/default.phtml" show_short_content="1" limit_characters_short_content="1000"}}]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block292-0]]></block_name>
+		<type><![CDATA[static]]></type>
+		<position><![CDATA[1]]></position>
+		<setting><![CDATA[{"animation":"","animation_delay":""}]]></setting>
+		<col><![CDATA[12]]></col>
+		<class><![CDATA[onepage-service-first]]></class>
+		<block_content><![CDATA[<div class="icon-service">
+<div class="icon"><em class="pe-7s-car"> </em></div>
+<div class="text">
+<h6 class="margin-bottom5">FREE SHIPPING</h6>
+<p class="no-margin">Free shipping on all US order or order above $200</p>
+</div>
+</div>]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block292-1]]></block_name>
+		<type><![CDATA[static]]></type>
+		<position><![CDATA[1]]></position>
+		<setting><![CDATA[{"animation":"","animation_delay":""}]]></setting>
+		<col><![CDATA[12]]></col>
+		<class><![CDATA[onepage-service-second]]></class>
+		<block_content><![CDATA[<div class="icon-service">
+<div class="icon"><em class="pe-7s-help2"> </em></div>
+<div class="text">
+<h6 class="margin-bottom5">SUPPORT 24/7</h6>
+<p class="no-margin">Contact us 24 hours a day, 7 days a week</p>
+</div>
+</div>]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block292-2]]></block_name>
+		<type><![CDATA[static]]></type>
+		<position><![CDATA[1]]></position>
+		<setting><![CDATA[{"animation":"","animation_delay":""}]]></setting>
+		<col><![CDATA[12]]></col>
+		<class><![CDATA[onepage-service-thirth]]></class>
+		<block_content><![CDATA[<div class="icon-service">
+<div class="icon"><i class="pe-7s-refresh"> </i></div>
+<div class="text">
+<h6 class="margin-bottom5">30 DAYS RETURN</h6>
+<p class="no-margin">Simply return it within 30 days for an exchange.</p>
+</div>
+</div>]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block292-3]]></block_name>
+		<type><![CDATA[static]]></type>
+		<position><![CDATA[1]]></position>
+		<setting><![CDATA[{"animation":"","animation_delay":""}]]></setting>
+		<col><![CDATA[12]]></col>
+		<class><![CDATA[onepage-service-fourth]]></class>
+		<block_content><![CDATA[<div class="icon-service">
+<div class="icon"><i class="pe-7s-door-lock"> </i></div>
+<div class="text">
+<h6 class="margin-bottom5">100% PAYMENT SECURE</h6>
+<p class="no-margin">We ensure secure payment with PEV</p>
+</div>
+</div>]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block293-0]]></block_name>
+		<type><![CDATA[static]]></type>
+		<position><![CDATA[1]]></position>
+		<setting><![CDATA[{"animation":"","animation_delay":""}]]></setting>
+		<col><![CDATA[12]]></col>
+		<class><![CDATA[]]></class>
+		<block_content><![CDATA[<div class="product-detail-infomation">
+<div class="product data items">
+<div class="product-data-items-content">
+<div class="title-accordion active" data-toggle="#toggle-id-1">What are the differences between FLOW and LINE?</div>
+<div id="toggle-id-1" class="data item content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et morbi eget tristique ac et vel. Metus sed consequat dictumst auctor. Venenatis morbi tincidunt tellus tristique facilisi morbi nisi etiam ac. Purus enim aliquam nisl vitae, tincidunt consequat nibh facilisis. <br>Ipsum viverra pharetra tristique ut a, vitae integer id id. Feugiat consequat, rhoncus venenatis, egestas diam, scelerisque nunc. Velit sit est arcu, duis commodo tincidunt purus. Sed lectus massa quis sociis. Cras id blandit aenean maecenas. Sit quisque iaculis adipiscing ullamcorper id porttitor blandit euismod. Sit id penatibus est arcu elit ullamcorper et tincidunt. Nulla leo accumsan pharetra, amet platea. Lectus natoque rhoncus condimentum dignissim sit non dolor. Tempor lacus purus suspendisse magna. Posuere aenean at ornare sodales donec non integer.</div>
+<div class="title-accordion" data-toggle="#toggle-id-2">What color options do I have with CLAUE?</div>
+<div id="toggle-id-2" class="data item content" style="display: none;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et morbi eget tristique ac et vel. Metus sed consequat dictumst auctor. Venenatis morbi tincidunt tellus tristique facilisi morbi nisi etiam ac. Purus enim aliquam nisl vitae, tincidunt consequat nibh facilisis. Velit sit est arcu, duis commodo tincidunt purus. Sed lectus massa quis sociis. Cras id blandit aenean maecenas. Sit quisque iaculis adipiscing ullamcorper id porttitor blandit euismod. Sit id penatibus est arcu elit ullamcorper et tincidunt. Nulla leo accumsan pharetra, amet platea. Lectus natoque rhoncus condimentum dignissim sit non dolor. Tempor lacus purus suspendisse magna. Posuere aenean at ornare sodales donec non integer.</div>
+<div class="title-accordion" data-toggle="#toggle-id-3">What exercises is the product used for?</div>
+<div id="toggle-id-3" class="data item content" style="display: none;">Velit sit est arcu, duis commodo tincidunt purus. Sed lectus massa quis sociis. Cras id blandit aenean maecenas. Sit quisque iaculis adipiscing ullamcorper id porttitor blandit euismod. Sit id penatibus est arcu elit ullamcorper et tincidunt. Nulla leo accumsan pharetra, amet platea. Lectus natoque rhoncus condimentum dignissim sit non dolor. Tempor lacus purus suspendisse magna. Posuere aenean at ornare sodales donec non integer.</div>
+<div class="title-accordion" data-toggle="#toggle-id-4">What is the product's warranty?</div>
+<div id="toggle-id-4" class="data item content" style="display: none;">Sit quisque iaculis adipiscing ullamcorper id porttitor blandit euismod. Sit id penatibus est arcu elit ullamcorper et tincidunt. Nulla leo accumsan pharetra, amet platea. Lectus natoque rhoncus condimentum dignissim sit non dolor. Tempor lacus purus suspendisse magna. Posuere aenean at ornare sodales donec non integer.</div>
+<div class="title-accordion" data-toggle="#toggle-id-5">How to make a purchase? </div>
+<div id="toggle-id-5" class="data item content" style="display: none;">Sit quisque iaculis adipiscing ullamcorper id porttitor blandit euismod. Sit id penatibus est arcu elit ullamcorper et tincidunt. Nulla leo accumsan pharetra, amet platea. Lectus natoque rhoncus condimentum dignissim sit non dolor. Tempor lacus purus suspendisse magna. Posuere aenean at ornare sodales donec non integer.</div>
+</div>
+</div>
+</div>]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block293-0]]></block_name>
+		<type><![CDATA[static]]></type>
+		<position><![CDATA[0]]></position>
+		<setting><![CDATA[{"animation":"","animation_delay":""}]]></setting>
+		<col><![CDATA[12]]></col>
+		<class><![CDATA[]]></class>
+		<block_content><![CDATA[<p class="onepage-questions-text">Frequently Asked Questions</p>]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block296-0]]></block_name>
+		<type><![CDATA[static]]></type>
+		<position><![CDATA[1]]></position>
+		<setting><![CDATA[{"animation":"","animation_delay":""}]]></setting>
+		<col><![CDATA[12]]></col>
+		<class><![CDATA[]]></class>
+		<block_content><![CDATA[<div class="onepage-happy-clients-content-left">
+<p>Trusted From Over 3000+ Happy Clients</p>
+<p>Pre-installed Motorized Treadmill</p>
+<p>It comes with quality speakers which enables a good sound experience while you are running on the treadmill. And also wheels for easy transportation, powerful noiseless motor and super shock reducing function.</p>
+<p>Jane Cooper</p>
+<p>Westheimer Rd</p>
+</div>]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block296-1]]></block_name>
+		<type><![CDATA[static]]></type>
+		<position><![CDATA[1]]></position>
+		<setting><![CDATA[{"animation":"","animation_delay":""}]]></setting>
+		<col><![CDATA[12]]></col>
+		<class><![CDATA[]]></class>
+		<block_content><![CDATA[<div class="onepage-happy-clients-content-right"><img class="img-responsive" src="{{media url="wysiwyg/panel/IMGs_1x.png"}}" alt="IMGs_1x.png" />
+</div>]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block297-0]]></block_name>
+		<type><![CDATA[static]]></type>
+		<position><![CDATA[1]]></position>
+		<setting><![CDATA[{"animation":"","animation_delay":""}]]></setting>
+		<col><![CDATA[12]]></col>
+		<class><![CDATA[]]></class>
+		<block_content><![CDATA[<div class="onepage-video-container"><a class=" btn-iframe popup-video onepage-video-content" title="#" href="https://www.youtube.com/watch?v=50y5-cTDJTw"> <i class="pe-7s-play"></i> </a></div>]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block286-0]]></block_name>
+		<type><![CDATA[promo_banner]]></type>
+		<position><![CDATA[1]]></position>
+		<setting><![CDATA[{"animation":"","animation_delay":"","text_colour":"","link_colour":"","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","banner_id":"flow"}]]></setting>
+		<col><![CDATA[12]]></col>
+		<class><![CDATA[]]></class>
+		<block_content><![CDATA[{{widget type="MGS\Promobanners\Block\Widget\Banner" banner_id="flow" template="banner.phtml"}}]]></block_content>
+	</block>
+	<block>
+		<block_name><![CDATA[block286-1]]></block_name>
+		<type><![CDATA[promo_banner]]></type>
+		<position><![CDATA[1]]></position>
+		<setting><![CDATA[{"animation":"","animation_delay":"","text_colour":"","link_colour":"","link_hover_colour":"","button_colour":"","button_hover_colour":"","button_text_colour":"","button_text_hover_colour":"","button_border_colour":"","button_border_hover_colour":"","banner_id":"line"}]]></setting>
+		<col><![CDATA[12]]></col>
+		<class><![CDATA[]]></class>
+		<block_content><![CDATA[{{widget type="MGS\Promobanners\Block\Widget\Banner" banner_id="line" template="banner.phtml"}}]]></block_content>
+	</block>
+	<promo_banner>
+		<item>
+			<title><![CDATA[Perfect for Any Fitness Level ]]></title>
+			<filename><![CDATA[/i/m/image_28.png]]></filename>
+			<url><![CDATA[]]></url>
+			<button><![CDATA[]]></button>
+			<text_align><![CDATA[middle-center]]></text_align>
+			<content><![CDATA[<div class="onepage-collection-item">
+<p>Perfect for Any Fitness Level </p>
+<p>Let your body define your workout difficulty with AIIR’s resistance training workouts, without the weights or a dumbbell. With the FLOW system, beginners can get just as much of their fitness routine as a professional. Plus, with the ergonomic handles, you’ll be able to maintain perfect form from the beginning, to ensure a healthy, sustainable daily workout. </p>
+<a href="#" class="btn btn-default white-text">Shop now</a>
+</div>]]></content>
+			<effect><![CDATA[]]></effect>
+			<custom_class><![CDATA[]]></custom_class>
+			<status><![CDATA[1]]></status>
+			<identifier><![CDATA[perfect-foe-any-fitness-level]]></identifier>
+			<alt><![CDATA[]]></alt>
+			<target><![CDATA[]]></target>
+		</item>
+		<item>
+			<title><![CDATA[Small Space? No Problem. ]]></title>
+			<filename><![CDATA[/i/m/image_29.png]]></filename>
+			<url><![CDATA[]]></url>
+			<button><![CDATA[]]></button>
+			<text_align><![CDATA[middle-center]]></text_align>
+			<content><![CDATA[<div class="onepage-collection-item">
+<p>Small Space? No Problem. </p>
+<p>The fitness industry won’t tell you this, but you don’t really need all of that big, bulky equipment. Instead of letting expensive, useless machines gather dust, make the most of your living space or free up room in your suitcase with a resistance workout that beats any gimmick out there. Its adaptability and packability are perfect for any space, from studio apartments to overnight hotel stays.  </p>
+<a href="#" class="btn btn-default white-text">Shop now</a>
+</div>]]></content>
+			<effect><![CDATA[]]></effect>
+			<custom_class><![CDATA[]]></custom_class>
+			<status><![CDATA[1]]></status>
+			<identifier><![CDATA[small-space]]></identifier>
+			<alt><![CDATA[]]></alt>
+			<target><![CDATA[]]></target>
+		</item>
+		<item>
+			<title><![CDATA[Tone Up or Build Up ]]></title>
+			<filename><![CDATA[/i/m/image_28_1_.png]]></filename>
+			<url><![CDATA[]]></url>
+			<button><![CDATA[]]></button>
+			<text_align><![CDATA[middle-center]]></text_align>
+			<content><![CDATA[<div class="onepage-collection-item">
+<p>Tone Up or Build Up</p>
+<p>Building muscle while still maintaining tone and flexibility is what AIIR was built to do. Bodyweight resistance workouts are perfect for building muscle that looks natural, toning muscle definition, or simply cutting down on weight. Avoid the crowds and clutter at the gym, and maintain fitness anywhere you like. </p>
+<a href="#" class="btn btn-default white-text">Shop now</a>
+</div>]]></content>
+			<effect><![CDATA[]]></effect>
+			<custom_class><![CDATA[]]></custom_class>
+			<status><![CDATA[1]]></status>
+			<identifier><![CDATA[tone-up]]></identifier>
+			<alt><![CDATA[]]></alt>
+			<target><![CDATA[]]></target>
+		</item>
+		<item>
+			<title><![CDATA[Lightweight & Packable]]></title>
+			<filename><![CDATA[/i/m/image_29_1_.png]]></filename>
+			<url><![CDATA[]]></url>
+			<button><![CDATA[]]></button>
+			<text_align><![CDATA[middle-center]]></text_align>
+			<content><![CDATA[<div class="onepage-collection-item">
+<p>Lightweight & Packable</p>
+<p>Our FLOW system is the world’s smallest and most adaptable workout, perfect for bringing high-level fitness on the road. Whether you’re looking to tone up on a business trip or squeeze in a workout during a vacation, you can set up a full home gym in your hotel room in seconds, and pack it away just as quickly. </p>
+<a href="#" class="btn btn-default white-text">Shop now</a>
+</div>]]></content>
+			<effect><![CDATA[]]></effect>
+			<custom_class><![CDATA[]]></custom_class>
+			<status><![CDATA[1]]></status>
+			<identifier><![CDATA[lightweight]]></identifier>
+			<alt><![CDATA[]]></alt>
+			<target><![CDATA[]]></target>
+		</item>
+		<item>
+			<title><![CDATA[Flow]]></title>
+			<filename><![CDATA[/u/n/untitled-1_3.png]]></filename>
+			<url><![CDATA[]]></url>
+			<button><![CDATA[]]></button>
+			<text_align><![CDATA[bottom-left]]></text_align>
+			<content><![CDATA[<div class="banner-text"><div class="onepage-product-flow-content">
+<div class="text-content-product">
+<p>FLOW</p>
+<p>Chest & Arm Workout</p>
+</div>
+<div>
+<a href="#" class="btn btn-default white-text">Shop now</a>
+</div>
+</div>
+<div class="onepage-product-flow-image">
+<img class="img-hover img-responsive" src="pub/media/wysiwyg/panel/image_21_1.png" alt="image_21_1.png">
+</div>
+</div>]]></content>
+			<effect><![CDATA[]]></effect>
+			<custom_class><![CDATA[]]></custom_class>
+			<status><![CDATA[1]]></status>
+			<identifier><![CDATA[flow]]></identifier>
+			<alt><![CDATA[]]></alt>
+			<target><![CDATA[]]></target>
+		</item>
+		<item>
+			<title><![CDATA[LINE]]></title>
+			<filename><![CDATA[/r/e/rectangle_10.png]]></filename>
+			<url><![CDATA[]]></url>
+			<button><![CDATA[]]></button>
+			<text_align><![CDATA[bottom-left]]></text_align>
+			<content><![CDATA[<div class="onepage-product-flow-content">
+<div class="text-content-product">
+<p>LINE</p>
+<p>Full-Body Workout</p>
+</div>
+<div>
+<a href="#" class="btn btn-default white-text">Shop now</a>
+</div>
+</div>
+<div class="onepage-product-line-image">
+<img class="img-hover img-responsive" src="pub/media/wysiwyg/panel/image_20_1.png" />
+</div>
+
+]]></content>
+			<effect><![CDATA[]]></effect>
+			<custom_class><![CDATA[]]></custom_class>
+			<status><![CDATA[1]]></status>
+			<identifier><![CDATA[line]]></identifier>
+			<alt><![CDATA[]]></alt>
+			<target><![CDATA[]]></target>
+		</item>
+	</promo_banner>
+	<theme_setting>
+		<general>
+			<footer>footer_1</footer>
+			<header>header_10</header>
+		</general>
+		<custom_style>
+			<style>.footer .switcher-store {
+    display: none;
+}
+button.switcher-toggle.dropdown-toggle:hover {
+    color: #56cfe1 !important;
+}
+.onestep-product .text.bottom-left {
+    background: linear-gradient( 
+180deg , rgba(0, 0, 0, 0) 8.37%, rgba(0, 0, 0, 0.5) 100%);
+}
+
+header.header.header10.active-sticky {
+    background: #333;
+}
+
+@media(max-width: 1800px){
+.onepage-slider-banner {
+    margin-left: 0;
+}
+@media(min-width: 1600px){
+body.wide .container {
+    width: 1350px;
+}
+}
+
+@media(max-width: 991px){
+.onepage-collection-second .promobanner:hover .onepage-collection-item > p:nth-child(2) {
+    display: none;
+}
+}
+
+
+</style>
+		</custom_style>
+	</theme_setting>
+	<color_setting>
+		<header>
+			<cart_icon_hover>#56cfe1</cart_icon_hover>
+		</header>
+	</color_setting>
+
+</home>

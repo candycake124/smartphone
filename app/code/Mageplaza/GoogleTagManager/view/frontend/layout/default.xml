@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!--
+/**
+* Mageplaza
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Mageplaza.com license that is
+* available through the world-wide-web at this URL:
+* https://www.mageplaza.com/LICENSE.txt
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade this extension to newer
+* version in the future.
+*
+* @category    Mageplaza
+* @package     Mageplaza_GoogleTagManager
+* @copyright   Copyright (c) Mageplaza (https://www.mageplaza.com/)
+* @license     https://www.mageplaza.com/LICENSE.txt
+*/
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <!-- Add head library -->
+        <referenceBlock name="head.additional">
+            <block class="Mageplaza\GoogleTagManager\Block\Tag\ManagerTag" name="mageplaza-google-tag-manager-head" as="mageplaza.google.tag.manager.head" template="googletag/head.phtml" before="-"/>
+        </referenceBlock>
+        <referenceBlock name="head.additional">
+            <block class="Mageplaza\GoogleTagManager\Block\Tag\PixelTag" name="mageplaza-facebook-pixel-head" as="mageplaza.facebook.pixel.head" template="pixel/head.phtml" before="-"/>
+        </referenceBlock>
+        <referenceBlock name="head.additional">
+            <block class="Mageplaza\GoogleTagManager\Block\Tag\AnalyticsTag" name="mageplaza-analytics-head" as="mageplaza.analytics.head" template="analytics/head.phtml" before="-"/>
+        </referenceBlock>
+
+        <!-- Send Data -->
+        <referenceContainer name="after.body.start">
+            <block class="Mageplaza\GoogleTagManager\Block\Tag\ManagerTag" name="mageplaza-google-tag-manager" as="mageplaza.google.tag.manager" template="googletag/getdata.phtml" before="-"/>
+        </referenceContainer>
+        <referenceContainer name="after.body.start">
+            <block class="Mageplaza\GoogleTagManager\Block\Tag\PixelTag" name="mageplaza-facebook-pixel" as="mageplaza.facebook.pixel" template="pixel/getdata.phtml" before="-"/>
+        </referenceContainer>
+        <referenceContainer name="after.body.start">
+            <block class="Mageplaza\GoogleTagManager\Block\Tag\AnalyticsTag" name="mageplaza-analytics" as="mageplaza.analytics" template="analytics/getdata.phtml" before="-"/>
+        </referenceContainer>
+
+        <!-- Event -->
+        <referenceContainer name="content">
+            <block class="Mageplaza\GoogleTagManager\Block\TagManager" name="mageplaza-google-tag-manager-default" as="mageplaza.google.tag.manager.default" template="Mageplaza_GoogleTagManager::default.phtml"/>
+        </referenceContainer>
+    </body>
+</page>

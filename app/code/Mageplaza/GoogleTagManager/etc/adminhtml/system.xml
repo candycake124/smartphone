@@ -1,0 +1,213 @@
+<?xml version="1.0"?>
+<!--
+/**
+* Mageplaza
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Mageplaza.com license that is
+* available through the world-wide-web at this URL:
+* https://www.mageplaza.com/LICENSE.txt
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade this extension to newer
+* version in the future.
+*
+* @category    Mageplaza
+* @package     Mageplaza_GoogleTagManager
+* @copyright   Copyright (c) Mageplaza (https://www.mageplaza.com/)
+* @license     https://www.mageplaza.com/LICENSE.txt
+*/
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="googletagmanager" translate="label" type="text" sortOrder="550" showInDefault="1" showInWebsite="1" showInStore="1">
+            <class>separator-top</class>
+            <label>Google Tag Manager</label>
+            <tab>mageplaza</tab>
+            <resource>Mageplaza_GoogleTagManager::configuration</resource>
+            <group id="general" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>General</label>
+                <field id="enabled" translate="label comment" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Enable</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <comment><![CDATA[Select <b>Yes</b> to enable this module.]]></comment>
+                </field>
+                <field id="enabled_deduct_tax" translate="label comment" type="select" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Deduct Tax From Transaction</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="enabled_brand" translate="label comment" type="select" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Enable Brand</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <comment><![CDATA[Compatible with Shop by brand by Mageplaza.]]></comment>
+                </field>
+                <field id="brand_attribute" translate="label comment" type="select" sortOrder="40" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Brand Attribute</label>
+                    <source_model>Mageplaza\GoogleTagManager\Model\Config\Source\ProductAttribute</source_model>
+                    <depends>
+                        <field id="enabled_brand">1</field>
+                    </depends>
+                </field>
+                <field id="enabled_variant" translate="label comment" type="select" sortOrder="50" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Enable Variant</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="enabled_deduct_shipping" translate="label comment" type="select" sortOrder="60" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Deduct Shipping From Transaction</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="enabled_tax_deduction_shipping" translate="label comment" type="select" sortOrder="70" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Tax Deduction On Shipping</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <depends>
+                        <field id="enabled_deduct_shipping">1</field>
+                    </depends>
+                </field>
+                <field id="enabled_ignore_orders" translate="label comment" type="select" sortOrder="80" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Ignore Orders with value 0</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+            </group>
+            <group id="googletag" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Google Tag Manager</label>
+                <field id="enabled" translate="label comment" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Enable</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <comment><![CDATA[Select <b>Yes</b> to enable Google Tag Manager.]]></comment>
+                </field>
+                <field id="use_id_or_sku" translate="label comment" type="select" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>ID Variable Base On</label>
+                    <source_model>Mageplaza\GoogleTagManager\Model\Config\Source\UseIDorSku</source_model>
+                    <comment><![CDATA[Select to specify that ID variable of product is replaced for Product ID or Product SKU]]></comment>
+                    <depends>
+                        <field id="enabled">1</field>
+                    </depends>
+                </field>
+                <field id="tag_id" translate="label comment" type="text" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Google Tag ID</label>
+                    <comment><![CDATA[To get Google Tag ID, register <a href="https://tagmanager.google.com" target='_blank'>here</a>. E.g: GTM-XXXXXX]]></comment>
+                    <depends>
+                        <field id="enabled">1</field>
+                    </depends>
+                </field>
+                <group id="ga4" translate="label" type="text" sortOrder="40" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Google Analytics 4</label>
+                    <field id="enabled_ga4" translate="label comment" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                        <label>Enable</label>
+                        <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                        <comment><![CDATA[Select <b>Yes</b> to add the items of Google Analytics 4 to Google Tag Manager.]]></comment>
+                        <depends>
+                            <field id="googletagmanager/googletag/enabled">1</field>
+                        </depends>
+                    </field>
+                    <depends>
+                        <field id="googletagmanager/googletag/enabled">1</field>
+                    </depends>
+                </group>
+            </group>
+            <group id="analyticstag" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Google Analytics eCommerce</label>
+                <field id="enabled" translate="label comment" type="select" sortOrder="11" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Enable</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <comment><![CDATA[Select <b>Yes</b> to enable Google Analytics eCommerce.]]></comment>
+                </field>
+                <field id="use_id_or_sku" translate="label comment" type="select" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>ID Variable Base On</label>
+                    <source_model>Mageplaza\GoogleTagManager\Model\Config\Source\UseIDorSku</source_model>
+                    <comment><![CDATA[Select to specify that ID variable of product is replaced for Product ID or Product SKU]]></comment>
+                    <depends>
+                        <field id="enabled">1</field>
+                    </depends>
+                </field>
+                <field id="tag_id" translate="label comment" type="text" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Google Analytics Tracking ID</label>
+                    <comment><![CDATA[To get Google Analytics Tracking ID, register <a href="https://analytics.google.com/analytics/web/" target='_blank'>here</a>. E.g: UA-12345-6789]]></comment>
+                    <depends>
+                        <field id="enabled">1</field>
+                    </depends>
+                </field>
+                <field id="second_tag_id" translate="label comment" type="text" sortOrder="31" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Second Tracking ID</label>
+                    <comment><![CDATA[Add another property ID for the store site. Leave empty if you do not want to use. ]]></comment>
+                    <depends>
+                        <field id="enabled">1</field>
+                    </depends>
+                </field>
+                <field id="link_attribution" translate="label comment" type="select" sortOrder="32" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Enable Enhanced Link Attribution</label>
+                    <comment><![CDATA[Enhanced link attribution improves click reports by automatically differentiating between multiple link clicks that have the same URL on a given page.]]></comment>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <depends>
+                        <field id="enabled">1</field>
+                    </depends>
+                </field>
+                <field id="linker" translate="label comment" type="select" sortOrder="34" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Enable Linker</label>
+                    <comment><![CDATA[If Yes, Google Analytics allows you to merge sessions from two related sites (such as an ecommerce site and a separate shopping cart site) as a single session. <br><a href='https://support.google.com/analytics/answer/1033876' target='_blank'>More Details</a>]]></comment>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <depends>
+                        <field id="enabled">1</field>
+                    </depends>
+                </field>
+                <field id="linker_domain" translate="label comment" type="text" sortOrder="35" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Linker Domain(s)</label>
+                    <comment><![CDATA[Seperated by comma(,). ]]></comment>
+                    <backend_model>Mageplaza\GoogleTagManager\Model\Config\Backend\Linkers</backend_model>
+                    <depends>
+                        <field id="linker">1</field>
+                        <field id="enabled">1</field>
+                    </depends>
+                </field>
+                <field id="display_features" translate="label comment" type="select" sortOrder="36" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Enable Display Ads (Remarketing)</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <comment><![CDATA[Google Analytics advertising features (including Remarketing Lists for Search Ads) can be enabled in Google Analytics from Property Settings > Data Collection.<br><a href='https://support.google.com/analytics/answer/2444872' target='_blank'>More Details</a>]]></comment>
+                    <depends>
+                        <field id="enabled">1</field>
+                    </depends>
+                </field>
+                <field id="ip_anonymization" translate="label comment" type="select" sortOrder="37" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Enable IP Anonymization</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <comment><![CDATA[If Yes, Analytics anonymizes the address as soon as technically feasible at the earliest possible stage of the collection network.<br><a href='https://support.google.com/analytics/answer/2763052' target='_blank'>More Details</a>]]></comment>
+                    <depends>
+                        <field id="enabled">1</field>
+                    </depends>
+                </field>
+            </group>
+            <group id="pixeltag" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Facebook Pixel</label>
+                <field id="enabled" translate="label comment" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Enabled</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <comment><![CDATA[Select <b>Yes</b> to enable Facebook Pixel.]]></comment>
+                </field>
+                <field id="use_id_or_sku" translate="label comment" type="select" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>ID Variable Base On</label>
+                    <source_model>Mageplaza\GoogleTagManager\Model\Config\Source\UseIDorSku</source_model>
+                    <comment><![CDATA[Select to specify that ID variable of product is replaced for Product ID or Product SKU]]></comment>
+                    <depends>
+                        <field id="enabled">1</field>
+                    </depends>
+                </field>
+                <field id="tag_id" translate="label comment" type="text" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Facebook Pixel ID</label>
+                    <comment><![CDATA[To get Facebook Pixel ID, register <a href="https://business.facebook.com/events_manager" target='_blank'>here</a>. E.g: 195027827612345]]></comment>
+                    <depends>
+                        <field id="enabled">1</field>
+                    </depends>
+                </field>
+            </group>
+            <group id="adstag" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Google Adwords Conversion Tracking</label>
+                <field id="enabled" translate="label comment" type="label" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Guid</label>
+                    <frontend_model>Mageplaza\GoogleTagManager\Block\Adminhtml\System\Link</frontend_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

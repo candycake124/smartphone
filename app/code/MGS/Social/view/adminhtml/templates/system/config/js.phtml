@@ -1,0 +1,47 @@
+<script type="text/javascript">
+	function generateInstagramData(){
+		require([
+			'jquery'
+		], function($){
+			if($('#fbuilder_social_instagram_access_token').length){
+				var accessToken = $('#fbuilder_social_instagram_access_token').val();
+				var inLimit = $('#social_instagram_setting_instagram_limit').val();
+				if(accessToken!=''){
+		            $.ajax({
+		                url: "https://graph.instagram.com/me/media",
+		                data: {
+		                    access_token: accessToken,
+		                    fields: 'id, media_type, media_url, permalink'
+		                },
+		                dataType: "json",
+		                type: "GET",
+		                success: function (data) {
+		                	var result = new Array();
+		                	var items = data.data,
+		                	    count = 0;
+		                	$.each(items, function (index, item) {
+		                		if (item.media_type != 'IMAGE') {
+		                			return;
+		                		}
+		                        if (count >= parseInt(inLimit)) {
+		                            return false;
+		                        }
+		                        result.push(item);
+		                        count++;
+		                    });
+		                	var myJsonString = JSON.stringify(result);
+		                	$('#fbuilder_social_instagram_data').val(myJsonString);
+		                },
+		                error: function (data) {
+		                    console.log(data);
+		                }
+		            });
+					
+					return;
+				}else{
+					$('#fbuilder_social_instagram_access_token').addClass('required-entry mage-error');
+				}
+			}
+		});
+	}
+</script>

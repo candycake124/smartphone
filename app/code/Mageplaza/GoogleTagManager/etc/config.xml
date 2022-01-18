@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<!--
+/**
+* Mageplaza
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Mageplaza.com license that is
+* available through the world-wide-web at this URL:
+* https://www.mageplaza.com/LICENSE.txt
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade this extension to newer
+* version in the future.
+*
+* @category    Mageplaza
+* @package     Mageplaza_GoogleTagManager
+* @copyright   Copyright (c) Mageplaza (https://www.mageplaza.com/)
+* @license     https://www.mageplaza.com/LICENSE.txt
+*/
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <googletagmanager>
+            <general>
+                <enabled>1</enabled>
+                <enabled_deduct_tax>0</enabled_deduct_tax>
+                <enabled_brand>1</enabled_brand>
+                <enabled_variant>1</enabled_variant>
+                <enabled_deduct_shipping>0</enabled_deduct_shipping>
+                <enabled_tax_deduction_shipping>0</enabled_tax_deduction_shipping>
+                <enabled_ignore_orders>0</enabled_ignore_orders>
+            </general>
+            <googletag>
+                <enabled>0</enabled>
+                <use_id_or_sku>1</use_id_or_sku>
+                <ga4>
+                    <enabled_ga4>0</enabled_ga4>
+                </ga4>
+            </googletag>
+            <analyticstag>
+                <enabled>0</enabled>
+                <use_id_or_sku>1</use_id_or_sku>
+                <link_attribution>1</link_attribution>
+                <linker>0</linker>
+                <display_features>1</display_features>
+                <ip_anonymization>0</ip_anonymization>
+            </analyticstag>
+            <pixeltag>
+                <enabled>0</enabled>
+                <use_id_or_sku>1</use_id_or_sku>
+            </pixeltag>
+        </googletagmanager>
+    </default>
+</config>

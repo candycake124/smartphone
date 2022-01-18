@@ -1,0 +1,38 @@
+<?php
+/**
+ * Mageplaza
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Mageplaza.com license that is
+ * available through the world-wide-web at this URL:
+ * https://www.mageplaza.com/LICENSE.txt
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade this extension to newer
+ * version in the future.
+ *
+ * @category    Mageplaza
+ * @package     Mageplaza_GoogleTagManager
+ * @copyright   Copyright (c) Mageplaza (https://www.mageplaza.com/)
+ * @license     https://www.mageplaza.com/LICENSE.txt
+ */
+?>
+
+<?php if ($block->canShowGtm()) : ?>
+    <!-- Google Tag Manager (noscript) Added by Mageplaza-->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=<?= $block->escapeHtmlAttr($block->getTagId()) ?>"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <?php $dataLayerObject = $block->getGtmDataLayer();?>
+    <?php if (!empty($dataLayerObject)) : ?>
+        <!-- Google Tag Manager DataLayer Added by Mageplaza-->
+        <script>
+            dataLayer.push(<?= /** @noEscape */ $dataLayerObject; ?>);
+        </script>
+        <!-- End Google Tag Manager DataLayer Added by Mageplaza-->
+    <?php endif; ?>
+<?php endif; ?>

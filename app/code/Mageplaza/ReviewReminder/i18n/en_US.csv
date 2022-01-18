@@ -1,0 +1,70 @@
+"Send after","Send after"
+Sender,Sender
+"Email template","Email template"
+More,More
+"%1 (Default)","%1 (Default)"
+Preview,Preview
+Delete,Delete
+"Send Now","Send Now"
+Sent,Sent
+Pending,Pending
+Error,Error
+"Clear Logs","Clear Logs"
+"Are you sure you want to clear all logs?","Are you sure you want to clear all logs?"
+"Clear success.","Clear success."
+Error.,Error.
+"Deleted successfully.","Deleted successfully."
+Logs,Logs
+Mageplaza,Mageplaza
+ReviewReminder,ReviewReminder
+"Email Preview","Email Preview"
+"An error occurred. The email template can not be opened for preview.","An error occurred. The email template can not be opened for preview."
+Report,Report
+Success.,Success.
+Guest,Guest
+Day,Day
+Month,Month
+From,From
+To,To
+Apply,Apply
+Image,Image
+"Product Name","Product Name"
+"Review Link","Review Link"
+Review,Review
+"%store_name review reminder","%store_name review reminder"
+"Hi %name,","Hi %name,"
+"Thanks so much for purchasing extensions at %store_name store","Thanks so much for purchasing extensions at %store_name store"
+"Leave a review:","Leave a review:"
+"Click on the above link to review or just post your review by replying this email.","Click on the above link to review or just post your review by replying this email."
+"Select Date","Select Date"
+"Please enter from < to","Please enter from < to"
+"Please enter again","Please enter again"
+"Report Time","Report Time"
+"Review Reminder Report","Review Reminder Report"
+"Review Reminder","Review Reminder"
+"General Configuration","General Configuration"
+Enabled,Enabled
+"Select Yes to enable this module.","Select Yes to enable this module."
+"Only Send Emails to Subscribers","Only Send Emails to Subscribers"
+"Email Configuration","Email Configuration"
+"Ex: 1d 4h 9m","Ex: 1d 4h 9m"
+"Google Analytics Configuration","Google Analytics Configuration"
+Source,Source
+Medium,Medium
+Name,Name
+Term,Term
+Content,Content
+"Order Configuration","Order Configuration"
+"Exclude SKUs","Exclude SKUs"
+"Products with those SKUs will be Excluded, can use Regular Expression, separated by "", ""","Products with those SKUs will be Excluded, can use Regular Expression, separated by "", """
+"Include SKUs","Include SKUs"
+"Only products with those SKUs will be Included, can use Regular Expression, separated by "", ""","Only products with those SKUs will be Included, can use Regular Expression, separated by "", """
+ID,ID
+"Order #","Order #"
+Subject,Subject
+Receiver,Receiver
+"Sequence number","Sequence number"
+Status,Status
+"Scheduled At","Scheduled At"
+"Created At","Created At"
+Action,Action

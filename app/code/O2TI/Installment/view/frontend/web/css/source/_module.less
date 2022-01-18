@@ -1,0 +1,68 @@
+& when (@media-common = true) {
+	
+		.installment-price {
+			.lib-font-size(2rem);
+			color: @primary__color;
+			font-weight: @font-weight__light;
+			.price-container {
+				.price-wrapper {
+					.price {
+					color: inherit;
+					}
+				}
+			}
+		}
+		.installment-tooltip {
+			.lib-tooltip(top);
+			.tooltip-content {
+				ul {
+					list-style: none;
+					padding: 0;
+					margin: 0;
+					li {
+						margin-bottom: 0px;
+					}
+				}
+			}
+		}
+		.special-price {
+			display: flex;
+			align-items: center;
+			flex-direction: row;
+			.price-off {
+				white-space: nowrap;
+				margin-left: auto;
+				.price-off-value {
+					color: @theme__color__secondary;
+					.lib-font-size(1.3rem);
+					padding: 8px @indent__l;
+					text-transform: uppercase;
+					font-weight: @font-weight__bold;
+					border: 1px solid @theme__color__secondary;
+					border-radius: 3px;
+				}
+			}
+		}
+	
+	.product {
+		&-item {
+			.price-off-value {
+				color: @theme__color__secondary;
+				padding: 0px @indent__s;
+				border: 1px solid @theme__color__secondary;
+				white-space: nowrap;
+			}
+			.prices-inline {
+                .price-final_installment {
+                    float: left;
+                    width: 100%;
+                    padding-top: 0;
+                    padding-bottom: @indent__s;
+                }
+    
+            }
+		}
+	}
+
+
+}

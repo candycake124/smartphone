@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Config/etc/system_file.xsd">
+    <system>
+        <section id="purchasedProduct" translate="label" type="text" showInDefault="1" showInWebsite="1" showInStore="1" sortOrder="50">
+            <class>separator-top</class>
+            <label>Sale Popup</label>
+            <tab>mgs</tab>
+            <resource>MGS_PurchasedProduct::configuration</resource>
+             <group id="general" translate="label" type="text" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Sale Popup Notification</label>
+                <field id="enabled" translate="label comment" type="select" sortOrder="10"  showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Is enabled</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="enabled_quickview" translate="label comment" type="select" sortOrder="10"  showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Show quickview icon</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="fakeinfo" translate="label comment" type="select" sortOrder="20"  showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Use Fake info</label>
+                    <comment>If you want to use real information please select "No"</comment>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <depends><field id="enabled" separator=",">1</field></depends>
+                </field>
+                <field id="product_ids" translate="label comment" type="text" sortOrder="30"  showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Fake product Ids</label>
+                    <comment>Comma-separated.</comment>
+                    <depends><field id="fakeinfo" separator=",">1</field></depends>
+                    <validate>validate-per-page-value-list</validate>
+                </field>
+                <field id="faketime" translate="label comment" type="text" sortOrder="45"  showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Fake times purchased</label>
+                    <comment>a few minutes ago, 5 minutes ago, 15 minutes ago</comment>
+                    <depends><field id="fakeinfo" separator=",">1</field></depends>
+                </field>
+                <field id="fakeaddress" translate="label comment" type="text" sortOrder="45"  showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Fake order shipping address</label>
+                    <comment>Hanoi - VN, New York - US, Sydney - Australia</comment>
+                    <depends><field id="fakeinfo" separator=",">1</field></depends>
+                </field>
+                <field id="fakename" translate="label comment" type="text" sortOrder="50"  showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Fake customer name</label>
+                    <comment>John,Nick,Paul,David</comment>
+                    <depends><field id="fakeinfo" separator=",">1</field></depends>
+                </field>
+                <field id="limit" translate="label comment" type="text" sortOrder="50"  showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Limited products</label>
+                    <comment>Limits the number of products displayed</comment>
+                    <validate>validate-greater-than-zero</validate>
+                    <depends><field id="enabled" separator=",">1</field></depends>
+                </field>
+                <field id="product_image_size" translate="label comment" type="text" sortOrder="55" showInDefault="1" showInWebsite="1" showInStore="1">
+					<label>Product Image Size</label>
+                    <comment><![CDATA[<strong>width</strong>x<strong>height</strong>. Ex: 100x133]]></comment>
+                    <depends><field id="enabled" separator=",">1</field></depends>
+				</field>
+                <field id="speed" translate="label comment" type="text" sortOrder="55"  showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Popup display time</label>
+                    <comment>The amount of time that the popup is displayed. In ms</comment>
+                    <validate>validate-greater-than-zero</validate>
+                    <depends><field id="enabled" separator=",">1</field></depends>
+                </field>
+                <field id="timeout" translate="label comment" type="text" sortOrder="60"  showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Waiting time</label>
+                    <comment>Comment: The amount of time it takes between popups to show. In ms</comment>
+                    <validate>validate-greater-than-zero</validate>
+                    <depends><field id="enabled" separator=",">1</field></depends>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

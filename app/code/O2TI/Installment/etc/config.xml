@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Store/etc/config.xsd">
+    <default>
+            <o2ti_installment>
+                <module>
+                    <enable>1</enable>
+                    <type_interest>simple</type_interest>
+                    <min_installment>5</min_installment>
+                    <max_installment>12</max_installment>
+                    <installment_1>0</installment_1>
+                    <installment_2>4.50</installment_2>
+                    <installment_3>5.00</installment_3>
+                    <installment_4>5.50</installment_4>
+                    <installment_5>6.50</installment_5>
+                    <installment_6>7.50</installment_6>
+                    <installment_7>8.50</installment_7>
+                    <installment_8>9.50</installment_8>
+                    <installment_9>10.50</installment_9>
+                    <installment_10>11.50</installment_10>
+                    <installment_11>12.00</installment_11>
+                    <installment_12>12.50</installment_12>
+                </module>
+            </o2ti_installment>
+    </default>
+</config>

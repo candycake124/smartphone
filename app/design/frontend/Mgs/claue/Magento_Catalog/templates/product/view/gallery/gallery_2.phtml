@@ -1,0 +1,62 @@
+<?php $galleryImages = $this->getGalleryImages(); ?>
+<?php $zoom_image = $this->getEnableZoom(); ?>
+<?php $lbox_image = $this->getLbox(); ?>
+<?php $_product = $this->getProduct(); ?>
+<?php $arImage = $_product->getData('mgs_arimage') ?>
+<div class="gallery-list gallery-two">
+    <?php $i=0; foreach($galleryImages as $image): $i++ ?>
+         <?php 
+            $dataArrayImg =  $image->toArray();
+            $productName = $this->getProduct()->getName();
+
+            $lbImage = (isset($dataArrayImg['label']) &&  $dataArrayImg['label'] != null) ? $dataArrayImg['label'] : $productName;
+        ?>
+        <div class="product item-image <?php if($image->getDegreeImage()): ?> degree-container<?php elseif($image->getArImage()): ?><?php else: ?>imgzoom<?php endif ?><?php if($image->getArImage() && $arImage): ?> disable-owl-swipe<?php endif ?>" data-zoom="<?php echo $image->getImageZoom(); ?>">
+            <?php if($image->getArImage()): ?>
+                <?php if($arImage): ?>
+                    <?php echo $this->getLayout()->createBlock("MGS\ClaueTheme\Block\AbstractProduct")->setProduct($_product)->setTemplate("MGS_ClaueTheme::arImage.phtml")->toHtml() ?>
+                <?php endif; ?>
+				<img class="img-responsive<?php if($arImage): ?> hasar<?php endif; ?>" src="<?php echo $image->getLargeImageUrl(); ?>" alt="<?php echo $lbImage ?>"/>
+            <?php else: ?>
+                <?php if($lbox_image): ?>
+                    <?php if($image->getMediaType() != 'external-video'): ?>
+                        <a class="lb" href="<?php echo $image->getImageZoom(); ?>"><img class="img-responsive" src="<?php echo $image->getLargeImageUrl(); ?>" alt="<?php echo $lbImage ?>"/></a>
+                    <?php else: ?>
+                        <a class="lb video-link" href="<?php echo $image->getVideoUrl(); ?>"><img class="img-responsive" src="<?php echo $image->getLargeImageUrl(); ?>" alt="<?php echo $lbImage ?>"/></a>
+                    <?php endif ?>
+                <?php else: ?>
+                    <img class="img-responsive" src="<?php echo $image->getLargeImageUrl(); ?>" alt="<?php echo $lbImage ?>"/>
+                    <?php if($image->getMediaType() == 'external-video'): ?>
+                        <a target="_blank" class="popup-youtube btn btn-primary" href="<?php echo $image->getVideoUrl(); ?>"><?php echo __('Watch Video'); ?></a>
+                    <?php endif ?>
+                <?php endif ?>
+            <?php endif; ?>
+			
+			<?php if($image->getDegreeImage()): ?>
+					<a id="degree_thumbnail" class="special-thumbnail degree-thumbnail" onclick="rotate360(<?php echo $i ?>)"><span></span></a>
+				<?php endif ?>
+            
+        </div>
+    <?php endforeach ?>
+</div>
+<script type="text/javascript">
+    <?php if($zoom_image): ?>
+        require([ 'jquery', 'zoom-images' ],function($) { 
+            $(".imgzoom").each(function( index ) {
+                zoomElement(this);
+            });
+        });
+    <?php endif ?>
+	
+	require([ 'jquery'],function($) { 
+		$(document).ready(function() {
+			if($('.hasar').length && $('model-viewer').length){
+				setTimeout(function(){
+					var itemHeight = $('.hasar').height();
+					$('model-viewer').height(itemHeight);
+					$('.hasar').hide();
+				},500);
+			}
+		});
+	});
+</script>

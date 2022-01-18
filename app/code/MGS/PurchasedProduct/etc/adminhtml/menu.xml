@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Backend/etc/menu.xsd">
+    <menu>
+        <add id="MGS_PurchasedProduct::purchase_product" title="Sale Popup" module="MGS_PurchasedProduct" sortOrder="80" parent="Magento_Backend::mgs" resource="MGS_PurchasedProduct::purchase_product"/>
+        <add id="MGS_PurchasedProduct::configuration" title="Configuration" module="MGS_PurchasedProduct" sortOrder="20" parent="MGS_PurchasedProduct::purchase_product" action="adminhtml/system_config/edit/section/purchasedProduct" resource="MGS_PurchasedProduct::configuration"/>
+    </menu>
+</config>

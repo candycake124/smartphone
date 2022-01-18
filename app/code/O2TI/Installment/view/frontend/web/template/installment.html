@@ -1,0 +1,27 @@
+<!-- ko if: isApply() -->
+	<!-- ko if: displayFull() -->
+		<span class="installment-tooltip" >
+			<span class="tooltip-toggle">
+				<div class="installment-price" data-bind="foreach: maxInstallments">
+					<span class="info-maxInstallment">
+						<span data-bind="text: text_format"></span>
+					</span>
+				</div>
+			</span>
+			<span class="tooltip-content">
+				<ul class="installment-list-all" data-bind="foreach: ListAllInstallments">
+					<li>
+						<span data-bind="text: text_format"></span>
+					</li>
+				</ul>
+			</span>
+		</span>
+	<!-- /ko -->
+	<!-- ko ifnot: displayFull() -->
+		<div class="installment-price" data-bind="foreach: maxInstallments">
+			<span class="info-maxInstallment">
+				<span data-bind="text: text_format"></span>
+			</span>
+		</div>
+	<!-- /ko -->
+<!-- /ko -->

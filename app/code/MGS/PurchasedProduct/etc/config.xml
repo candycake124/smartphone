@@ -1,0 +1,14 @@
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <mgspurchasedproduct>
+             <general>
+                <enabled>1</enabled>
+                <fakeinfo>1</fakeinfo>
+                <timeout>10000</timeout>
+                <speed>15000</speed>
+                <product_image_size>100x133</product_image_size>
+            </general>
+        </mgspurchasedproduct>
+    </default>
+</config>

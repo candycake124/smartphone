@@ -1,0 +1,22 @@
+{
+    "name": "o2ti/module-installment",
+    "description": "M\u00f3dulo para parcelamento",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Elisei",
+            "email": "brunoelisei@o2ti.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "O2TI\\Installment\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

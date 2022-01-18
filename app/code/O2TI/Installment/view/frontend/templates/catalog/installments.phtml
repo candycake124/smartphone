@@ -1,0 +1,24 @@
+<div class="price-box price-final_installment" data-role="priceBox" data-product-id="<?php echo $block->getProductId(); ?>"  data-bind="scope: 'installment<?php echo $block->getProductId(); ?>'">
+	<div data-role="block-installment<?php echo $block->getProductId(); ?>" data-installment-for-product-id="<?php echo $block->getProductId(); ?>" data-installment-for-price="<?= /* @escapeNotVerified */  $block->getCalcForPrice() ?>" >
+		<!-- ko template: getTemplate() -->
+        <!-- /ko -->
+	</div>
+</div>
+<script type="text/x-magento-init">
+{
+	"[data-role=block-installment<?php echo $block->getProductId(); ?>]": 
+	{
+		"Magento_Ui/js/core/app": 
+		{
+			"components": 
+			{
+				"installment<?php echo $block->getProductId(); ?>": 
+				{
+					"component": "O2TI_Installment/js/view/installment",
+					"applyFullInstallment": "<?= /* @escapeNotVerified */ $block->applyFullInstallment($block->getProductId()) ?>"
+				}
+			}
+		}
+	}
+}
+</script>
